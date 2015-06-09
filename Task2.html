@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Homework Potapova - task2</title>
+		<style type="text/css">
+			table { border-collapse: collapse; width: 400px;}
+			td { border: 10px solid #000; }
+</style>
+	</head>
+	<body>
+		<h2 align="center">Таблицы</h2>
+		<p align="center"><b>Пит Мондриан "Композиция с красным, синим и желтым", оригинал</b></p>
+		<p align="center"><img src="https://raw.githubusercontent.com/puzankov/markup_hw/master/lesson2/tables_hw.png"/></p>
+		<p align="center"><b>Ирина Потапова "Композиция с красным, синим и желтым", реплика</b></p>
+		<!-- frame void работает некорректно - часть рамок убірает, часть оставляет. Почему? Игнорит значения высоты и ширины таблицы. Почему? -->
+		<table align="center" frame="border">
+			<tr>
+				<td colspan="2" bgcolor="#ffffff"><br/><br/></td>
+				<td colspan="2" bgcolor="#ffffff"><br/><br/></td>
+				<td colspan="2" bgcolor="#fffa69"><br/><br/></td>		
+			</tr>
+			<tr>
+				<td bgcolor="#ffffff"><br/><br/><br/><br/></td>
+				<td colspan="3" rowspan="2" bgcolor="#ff5b2d"><br/><br/><br/><br/></td>
+				<td colspan="2" bgcolor="#fffa69"><br/><br/><br/><br/></td>
+			</tr>
+			<tr>
+				<td rowspan="2" bgcolor="#ffffff"><br/><br/></td>
+				<td bgcolor="#ffffff"><br/><br/></td>
+				<td bgcolor="#ffffff"><br/><br/><br/><br/></td>
+			</tr>
+			<tr>
+				<td bgcolor="#0000000"><br/><br/></td>
+				<td bgcolor="#0000000"><br/><br/></td>
+				<td bgcolor="#ffffff"><br/><br/></td>
+				<td colspan="2" bgcolor="#ffffff"><br/><br/></td>	
+			</tr>
+			<tr>
+				<td rowspan="3" bgcolor="#fffa69"><br/></td>
+				<td bgcolor="#0000000"><br/><br/></td>
+				<td bgcolor="#0000000"><br/><br/></td>
+				<td bgcolor="#ffffff"><br/><br/></td>
+				<td colspan="2" rowspan="2" bgcolor="#00000ff"><br/><br/></td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2" bgcolor="#ffffff"><br/></td>
+				<td bgcolor="#0000000"><br/></td>
+			</tr>
+			<tr>
+				<td colspan="3" bgcolor="#ffffff"><br/><br/></td>
+			</tr>
+		</table><br/>
+	<body> 
+</html>
+ 
