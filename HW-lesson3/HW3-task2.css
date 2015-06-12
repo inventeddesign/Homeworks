@@ -1,0 +1,9 @@
+article > :nth-child(2)
+    {
+    font-size: 120%;
+    }
+
+article > :last-child
+    {
+    color: #999;
+    }
