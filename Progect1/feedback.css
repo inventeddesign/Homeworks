@@ -1,0 +1,122 @@
+.feedback
+{
+  position: relative;
+  width: 1400px;
+  height: 315px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: red;
+  background: url(fon-task2.png) 0 0 no-repeat;
+}
+
+.feedback-title
+{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 10px;
+  margin: 0 auto;
+  text-align: center;
+  color: #3170a8;
+  font: normal 27pt "Trebuchet MS";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.what
+{
+  color: #ee8129;
+}
+
+.woman
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 190px;
+  top: 137px;
+  background: url(woman.png) 0 0 no-repeat;
+  overflow: hidden;
+}
+
+.woman-describe
+{
+  position: absolute;
+  width: 365px;
+  height: 100px;
+  left: 315px;
+  top: 137px;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+}
+
+.man
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 721px;
+  top: 137px;
+  background: url(man.png) 0 0 no-repeat;
+  overflow: hidden;
+}
+
+.man-describe
+{
+  position: absolute;
+  width: 365px;
+  height: 100px;
+  left: 847px;
+  top: 137px;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+}
+
+.arr
+{
+  position: absolute;
+  top: 19px;
+  left: -18px;
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-right: 40px solid white;
+  border-bottom: 30px solid transparent;
+}
+
+.name
+{
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  color: #3070a8;
+  font: italic 10pt "Trebuchet MS";
+}
+
+.customer
+{
+  position: absolute;
+  top: 1px;
+  left: 286px;
+  color: #3070a8;
+  font: italic 10pt "Trebuchet MS";
+}
+
+.lorem
+{
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  color: #666666;
+  font: normal 10pt "Trebuchet MS";
+}
+
+.stroke1
+{
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 325px;
+  height: 1px;
+  border-bottom: dotted 1px #666666
+}

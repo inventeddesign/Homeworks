@@ -1,0 +1,86 @@
+div {
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: justify;
+  width: 380px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  text-shadow: #555555 0 0 7px;
+  color: transparent;
+}
+
+.str1 {
+font-size: 80pt;
+line-height: 50pt;
+}
+
+.str2 {
+font-size: 73pt;
+line-height: 40pt;
+}
+
+.str3 {
+font-size: 56pt;
+line-height: 35pt;
+}
+
+.str4 {
+font-size: 49pt;
+line-height: 30pt;
+}
+
+.str5 {
+font-size: 42pt;
+line-height: 25pt;
+}
+
+.str6 {
+font-size: 35pt;
+line-height: 20pt;
+}
+
+.str7 {
+font-size: 27pt;
+line-height: 15pt;
+}
+
+.str8 {
+font-size: 22pt;
+line-height: 13pt;
+}
+
+.str9 {
+font-size: 17pt;
+line-height: 10pt;
+}
+
+.str10 {
+font-size: 12pt;
+line-height: 15pt;
+}
+
+.str11 {
+font-size: 9pt;
+line-height: 7pt;
+}
+
+.str12 {
+font-size: 6pt;
+}
+
+span.p {
+padding: 0 10px;
+font-size: 50pt;
+visibility: hidden;
+}
+
+.line {
+  margin-top: -15px;
+  margin-left: 10px;
+  padding-top: 0;
+  height: 1px;
+  background-color: #eecfd4;
+  box-shadow: #eecfd4 0 0 7px;
+  color: transparent;
+  line-height: 0;
+}
