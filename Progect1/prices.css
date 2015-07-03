@@ -7,6 +7,7 @@
   top: 0;
   margin: 0 auto;
   text-align: center;
+  min-width: 1120px;
 }
 
 .text-title {
@@ -80,7 +81,7 @@
   text-transform: uppercase;
   color: white;
   letter-spacing: 2px;
-  font: bold 17pt "Trebuchet MS";
+  font: 17pt "Futuris Bold", sans-serif;
 }
 
 .shadow-button-blue {
@@ -138,7 +139,7 @@
   text-transform: uppercase;
   color: white;
   letter-spacing: 2px;
-  font: bold 17pt "Trebuchet MS";
+  font: 17pt "Futuris Bold", sans-serif;
 }
 /*конец зеленого блока*/
 
@@ -150,7 +151,7 @@
   text-transform: uppercase;
   color: #3f4042;
   letter-spacing: 1px;
-  font: normal 17pt "Trebuchet MS";
+  font: 17pt "Futuris Book", sans-serif;
 }
 .text-price-blue-green {
   position: absolute;
@@ -240,7 +241,7 @@
   text-transform: uppercase;
   color: white;
   letter-spacing: 2px;
-  font: bold 17pt "Trebuchet MS";
+  font: 17pt "Futuris Bold", sans-serif;
 }
 
 /*заголовок на белом фоне*/
@@ -252,7 +253,7 @@
   text-transform: uppercase;
   color: #3f4042;
   letter-spacing: 1px;
-  font: normal 17pt "Trebuchet MS";
+  font: 17pt "Futuris Book", sans-serif;
 }
 
 /*цена в общем div - доллар, цифра, слово */
@@ -265,17 +266,18 @@
 }
 
 .dollar {
-  font: normal 16pt "Trebuchet MS";
+  font: 16pt "Futuris Bold", sans-serif;
   vertical-align: 45px;
 }
 
 .price {
-  font: bold 55pt "Trebuchet MS";
+  font: 55pt "Futuris Bold", sans-serif;
+  /*font: bold 55pt "Trebuchet MS";*/
   letter-spacing: -3px;
 }
 
 .mon {
-  font: normal 13pt "Trebuchet MS";
+  font: 13pt "Futuris Book", sans-serif;
   vertical-align: -10px;
 }
 
@@ -332,7 +334,7 @@
 /*текст в пунктах*/
 .text-list {
   display: inline-block;
-  font: normal 11pt "Trebuchet MS";
+  font: normal 12pt "Calibri", sans-serif;
   color: #888c94;
   padding-left: 70px;
   padding-top: 8px;
@@ -374,7 +376,8 @@
 
 .text-button {
   display: inline-block;
-  font: normal 11pt "Trebuchet MS";
+  font: 11pt "Open Sans", sans-serif;
+  font-weight: 600;
   color: white;
   padding-left: 13px;
   padding-top: 10px;

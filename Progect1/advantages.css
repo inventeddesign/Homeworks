@@ -1,0 +1,44 @@
+.advantages
+{
+height: 563px;
+width: 100%;
+min-width: 1120px;
+}
+
+.centre-advantages
+{
+  position: relative;
+  margin: 0 auto;
+  width: 1120px;
+  height: 300px;
+}
+
+.advantages-box
+{
+  float: left;
+  width: 330px;
+  height: 300px;
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.advantages-title
+{
+  font: 26pt "Futuris Book", sans-serif;
+  text-transform: uppercase;
+  color: #3070a8;
+  margin-top: 15px;
+}
+
+.advantages-text
+{
+  position: relative;
+  top: 10px;
+  font: 11pt 'Open Sans', sans-serif;
+  color: #999999;
+  padding-right: 10px;
+  padding-right: 10px;
+  line-height: 22pt;
+}

@@ -40,7 +40,7 @@
   /*height: 117px;*/
 }
 
-li
+li.menuli
 {
   display: inline-block;
   padding: 0 12px;
@@ -57,8 +57,13 @@ li
   margin-top: 45px;
 }
 
-li:first-child
+li.menuli:first-child
 {
   border-bottom: solid 3px #3070a8;
+  color: #3070a8;
+}
+
+li.menuli:hover
+{
   color: #3070a8;
 }

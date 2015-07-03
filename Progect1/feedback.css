@@ -9,6 +9,15 @@
   background: url(fon-task2.png) 0 0 no-repeat;
 }
 
+/*.centre
+{
+width: 90%;
+height: 100%;
+min-width: 1030px;
+margin: 0 auto;
+background-color: red;
+}*/
+
 .feedback-title
 {
   position: absolute;
@@ -18,14 +27,15 @@
   margin: 0 auto;
   text-align: center;
   color: #3170a8;
-  font: normal 27pt "Trebuchet MS";
   text-transform: uppercase;
   letter-spacing: 2px;
+  font: 27pt "Futuris Bold", sans-serif;
 }
 
 .what
 {
   color: #ee8129;
+  font: 27pt "Futuris Book", sans-serif;
 }
 
 .woman

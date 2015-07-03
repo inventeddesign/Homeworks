@@ -1,0 +1,66 @@
+.team
+{
+  background: url(team.jpg) 0 0 no-repeat;
+  height: 576px;
+}
+
+.team-box
+{
+  height: 400px;
+  position: relative;
+  top: 70px;
+  left: 30px;
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.team-title
+{
+  font: 20pt "Futuris Book", sans-serif;
+  text-transform: uppercase;
+  color: #ee8129;
+  margin-right: 320px;
+  line-height: 25pt;
+}
+
+.team-title2
+{
+  font: italic 15pt "Open Sans", sans-serif;
+  font-weight: 200;
+  color: white;
+  margin-right: 300px;
+  margin-bottom: 30px;
+}
+
+ul.teamul li
+{
+  padding-left: 10px;
+  /*list-style-type: none;
+  list-style-image: content: "● ";*/
+}
+
+.textteam-blue
+{
+  color: #3070a8;
+  font: 11pt "Open Sans", sans-serif;
+  margin-right: 350px;
+  line-height: 23pt;
+  margin-left: -10px;
+  margin-bottom: 20px;
+}
+
+.textteam-white
+{
+  color: #9d9d9d;
+  font: 11pt "Open Sans", sans-serif;
+  margin-right: 350px;
+  line-height: 23pt;
+  margin-left: -10px;
+  margin-bottom: 20px;
+}
+
+/*p[class|="textteam"]::before
+{
+  content: "●";
+  padding-left: -30px;
+}*/
