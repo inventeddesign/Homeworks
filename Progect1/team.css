@@ -59,8 +59,14 @@ ul.teamul li
   margin-bottom: 20px;
 }
 
-/*p[class|="textteam"]::before
+.teamul
+{
+  list-style-type: none;
+}
+
+li[class|="textteam"]::before
 {
   content: "●";
-  padding-left: -30px;
-}*/
+  margin-left: -30px;
+  margin-right: 20px;
+}

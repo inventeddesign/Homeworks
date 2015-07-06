@@ -1,0 +1,24 @@
+.futer
+{
+  margin-top: -13px;
+  background-color: #3070a8;
+  min-width: 1400px;
+  height: 105px;
+  text-align: center;
+}
+.futer-text
+{
+  padding-top: 20px;
+  font: normal 10pt "Open Sans", sans-serif;
+  color: white;
+  line-height: 25pt;
+}
+.futer-text_bold
+{
+  font-weight: 600;
+}
+.futer-text_boldblack
+{
+  font: bold 10pt "Open Sans", sans-serif;
+  color: black;
+}
