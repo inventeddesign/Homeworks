@@ -1,0 +1,24 @@
+body
+{
+  background-color: #daf0fb;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+h1
+{
+  font-weight: bold;
+  font-size: 20pt;
+}
+h2
+{
+  font-weight: normal;
+  font-size: 15pt;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+a
+{
+  /*text-decoration: none;*/
+  font-size: 12pt;
+  color: gray;
+}
