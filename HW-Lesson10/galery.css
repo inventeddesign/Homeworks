@@ -78,23 +78,30 @@ background-color: transparent;
 
 .link
 {
-height: 40px;
-width: 40px;
-border-radius: 3px;
-border: solid 1px white;
-position: absolute;
-margin-top: 110px;
-margin-left: 185px;
-background-image: url(link.png);
-background-color: transparent;
+  height: 40px;
+  width: 40px;
+  border-radius: 3px;
+  border: solid 1px white;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 185px;
+  background-image: url(link.png);
+  background-color: transparent;
 }
 
-input
+input[type="radio"]
 {
-  display: none;
+  display: none
 }
 
-li:hover input
+label
+{
+  display: none
+}
+
+li:hover label
 {
   display: inline-block;
 }
+
+#red:checked ~ .red
