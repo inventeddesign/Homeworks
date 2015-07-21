@@ -111,7 +111,7 @@ body
 }
 .imgheader
 {
-  background: url(https://github.com/inventeddesign/inventeddesign.github.com/blob/master/Progect2/Images/Fon1.jpg) center 0px no-repeat;
+  background: url(Images/Fon1.jpg) center 0px no-repeat;
   height: 350px;
 }
 .title1
@@ -161,13 +161,16 @@ form
 {
   position: relative;
   display: inline-block;
-  padding-top: 7px;
-  background-image: url(Images/arrows.png) center 0px no-repeat;
+  /*margin-top: 0px; */
+  background: url(Images/arrow-down.png) center 0px no-repeat;
+  top: 3px;
   /*-moz-transform: scaleX(2.2);
   -webkit-transform: scaleX(2.2);*/
   /*text-decoration: none;
   color: #333333;*/
   margin-left: -30px;
+  height: 15px;
+  width: 20px;
   /*font: 9pt "Helvetica Normal", sans-serif;*/
 }
 .adressspace
@@ -210,6 +213,8 @@ h3
   margin: 0;
   color: #333333;
   font: 10pt "Helvetica Light", sans-serif;
+  /*font-family: "Myriad Pro";
+  font-weight: lighter;*/
   line-height: 17pt;
   padding-top: 20px;
 }
@@ -280,21 +285,42 @@ span.view
   overflow: hidden;
   margin-bottom: 20px;
 }
-.last-next
+.last-next-right
 {
   width: 40px;
   height: 40px;
   border: solid 1px #e6e6e6;
   border-radius: 25px;
-  text-decoration: none;
-  text-align: center;
+  /*text-decoration: none;*/
+  /*text-align: center;*/
   display: inline-block;
-  font: 14pt "Helvetica Light", sans-serif;
-  color: #8b8b8b;
+  background: url(Images/arrow-gray-right.png) center 11px no-repeat;
+  /*font: 14pt "Helvetica Light", sans-serif;
+  color: #8b8b8b;*/
 }
-.last-next:hover
+.last-next-left
 {
-  color: #333333;
+  width: 40px;
+  height: 40px;
+  border: solid 1px #e6e6e6;
+  border-radius: 25px;
+  /*text-decoration: none;*/
+  /*text-align: center;*/
+  display: inline-block;
+  background: url(Images/arrow-gray-left.png) center no-repeat;
+  /*font: 14pt "Helvetica Light", sans-serif;
+  color: #8b8b8b;*/
+}
+.last-next-right:hover
+{
+  background: url(Images/arrow-black-right.png) center no-repeat;
+  /*color: #333333;*/
+  background-color: #f2f2f2;
+}
+.last-next-left:hover
+{
+  background: url(Images/arrow-black-left.png) center no-repeat;
+  /*color: #333333;*/
   background-color: #f2f2f2;
 }
 span.last-next-text
@@ -384,9 +410,9 @@ span.last-next-text
   position: absolute;
   margin-left: 15px;
   margin-top: 13px;
-
+  background: url(Images/arrow-white-big.png) center no-repeat;
 }
-.circle-text
+/*.circle-arrow
 {
   display: block;
   margin-top: 4px;
@@ -395,7 +421,7 @@ span.last-next-text
   -moz-transform: scaleY(2);
   -webkit-transform: scaleY(2);
   position: relative;
-}
+}*/
 .student
 {
   position: relative;
