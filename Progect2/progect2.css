@@ -77,13 +77,28 @@ body
   letter-spacing: 1px;
   margin-left: 10px;
 }
+.blueline
+{
+  display: none;
+}
 .connect
 {
   float: right;
-  display: block;
+  display: inline;
   height: 25px;
   width: 145px;
-  margin-top: -40px;
+  padding-top: 25px;
+  /*position: relative;
+  top: 40px;*/
+  /*margin-top: -40px;*/
+  /*background-color: red;*/
+  /*position: relative;
+  right: 0;
+  left: 300px;
+  height: 25px;
+  width: 145px;
+  margin-top: -40px;*/
+
 }
 .text__12pt__white
 {
@@ -171,6 +186,10 @@ form
   color: white;
   border: none;
 }
+.formbutton:hover
+{
+  background-color: red;
+}
 .grayheader
 {
   height: 250px;
@@ -255,10 +274,10 @@ span.view
 }
 .boxtext
 {
-    width: 100%;
-    height: 130px;
-    overflow: hidden;
-    margin-bottom: 20px;
+  width: 100%;
+  height: 130px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 .last-next
 {
@@ -332,14 +351,16 @@ span.last-next-text
   height: 60px;
   width: 540px;
   position: relative;
-  margin-top: 10px;
   background-color: #e74c3c;
   text-align: center;
   display: inline-block;
   text-decoration: none;
   margin-top: 65px;
 }
-
+.bigbutton:hover
+{
+  background-color: red;
+}
 .bigbutton-text
 {
   font: 19pt "Helvetica Light", sans-serif;
@@ -395,12 +416,13 @@ span.last-next-text
 .biglogo
 {
   position: absolute;
-  margin-top: 0;
+  margin-top: 50px;
+  margin-left: 0;
+  /*float: left;*/
   height: 70px;
   width: 70px;
   border: solid 2px white;
   border-radius: 80px;
-  /*text-align: center;*/
   display: inline-block;
 }
 .bigabc
@@ -415,23 +437,20 @@ span.last-next-text
 }
 .biglogotext
 {
-  display: inline-block;
-  position: absolute;
-  left: 90px;
-  top: 15px;
   font: 19pt "Helvetica Light", sans-serif;
   color: white;
   letter-spacing: 1px;
 }
 .biglogo-box
 {
-  height: 75px;
-  width: 256px;
+  height: 50px;
+  width: 170px;
   display: inline-block;
   border-right: solid 1px #2980b9;
   position: relative;
-  margin-top: 50px;
-  float: left;
+  margin-top: 62px;
+  margin-left: 150px;
+  /*float: left;*/
 }
 .connectbottom
 {
@@ -443,10 +462,10 @@ span.last-next-text
 }
 .copyright
 {
-display: block;
-float: left;
-color: white;
-font: 10pt "Helvetica Light", sans-serif;
-margin-top: 7px;
-padding-left: 20px;
+  display: block;
+  float: left;
+  color: white;
+  font: 10pt "Helvetica Light", sans-serif;
+  margin-top: 7px;
+  padding-left: 20px;
 }
