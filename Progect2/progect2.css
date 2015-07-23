@@ -197,10 +197,11 @@ textarea::-moz-placeholder
   font: 20pt "Helvetica Light", Arial, sans-serif;
   color: white;
   border: none;
+  transition: background-color 0.2s linear;
 }
 .formbutton:hover
 {
-  background-color: red;
+  background-color: #b41c0c;
 }
 .grayheader
 {
@@ -371,10 +372,11 @@ span.view
   display: inline-block;
   text-decoration: none;
   margin-top: 65px;
+  transition: background-color 0.2s linear;
 }
 .bigbutton:hover
 {
-  background-color: red;
+  background-color: #c21b0a;
 }
 .bigbutton-text
 {
@@ -386,7 +388,6 @@ span.view
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
 .circle
 {
   color: white;
@@ -466,7 +467,3 @@ a
 {
     cursor: pointer;
 }
-/*input[placeholder]
-{
-  text-indent: 3px;
-}*/
