@@ -30,6 +30,7 @@ body
   width: 990px;
   height: 78px;
   margin: 0 auto;
+  position: relative;
 }
 .imgheader-box
 {
@@ -57,25 +58,19 @@ body
   width: 50px;
   border: solid 2px white;
   border-radius: 30px;
-  text-align: center;
   display: inline-block;
   margin-top: 13px;
-}
-.abc
-{
-  font: 15pt "Helvetica Light", sans-serif;
-  margin-top: 16px;
-  color: white;
-  display: inline-block;
-  letter-spacing: 1px;
+  background: url(Images/ABCsmall.png) center no-repeat;
 }
 .logotext
 {
   display: inline-block;
-  font: 19pt "Helvetica Light", sans-serif;
+  position: absolute;
+  font: 19pt "Helvetica Light", Arial, sans-serif;
   color: white;
   letter-spacing: 1px;
-  margin-left: 10px;
+  left: 70px;
+  bottom: 25px;
 }
 .blueline
 {
@@ -83,29 +78,19 @@ body
 }
 .connect
 {
-  float: right;
-  display: inline;
-  height: 25px;
-  width: 145px;
-  padding-top: 25px;
-  /*position: relative;
-  top: 40px;*/
-  /*margin-top: -40px;*/
-  /*background-color: red;*/
-  /*position: relative;
+  position: absolute;
   right: 0;
-  left: 300px;
+  top: 28px;
   height: 25px;
   width: 145px;
-  margin-top: -40px;*/
-
 }
 .text__12pt__white
 {
   display: block;
   float: left;
   color: white;
-  font: 10pt "Helvetica Light", sans-serif;
+  font: 10pt "Helvetica Light", Arial, sans-serif;
+  font-weight: 100;
   margin-top: 7px;
   margin-right: 7px;
 }
@@ -116,7 +101,8 @@ body
 }
 .title1
 {
-  font: 35pt "Helvetica Bold", sans-serif;
+  font: 35pt "Helvetica Bold", Arial, sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   color: white;
   padding-top: 80px;
@@ -124,7 +110,8 @@ body
 }
 .title2
 {
-  font: 23pt "Helvetica Light", sans-serif;
+  font: 23pt "Helvetica Light", Arial, sans-serif;
+  font-weight: 100;
   color: white;
   margin-top: -20px;
   line-height: 33pt;
@@ -141,7 +128,8 @@ form
 }
 .formtitle
 {
-  font: 20pt "Helvetica Light", sans-serif;
+  font: 20pt "Helvetica Light", Arial, sans-serif;
+  font-weight: 100;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1px;
@@ -154,28 +142,48 @@ form
   border: solid 1px #e6e6e6;
   margin-bottom: 10px;
   margin-left: 20px;
-  font: 11pt "Helvetica Light", sans-serif;
+  font: 11pt "Helvetica Light", Arial, sans-serif;
+  font-weight: 100;
   color: #333333;
 }
 .arrow
 {
   position: relative;
   display: inline-block;
-  /*margin-top: 0px; */
   background: url(Images/arrow-down.png) center 0px no-repeat;
   top: 3px;
-  /*-moz-transform: scaleX(2.2);
-  -webkit-transform: scaleX(2.2);*/
-  /*text-decoration: none;
-  color: #333333;*/
   margin-left: -30px;
   height: 15px;
   width: 20px;
-  /*font: 9pt "Helvetica Normal", sans-serif;*/
 }
 .adressspace
 {
   height: 76px;
+  resize: none;
+}
+input::-webkit-input-placeholder
+{
+  color: black;
+  text-indent: 3px;
+}
+textarea::-webkit-input-placeholder
+{
+  color: black;
+  position: relative;
+  top: 30px;
+  text-indent: 3px;
+}
+input::-moz-placeholder
+{
+  color: black;
+  text-indent: 3px;
+}
+textarea::-moz-placeholder
+{
+  color: black;
+  position: relative;
+  top: 30px;
+  text-indent: 3px;
 }
 .formbutton
 {
@@ -186,7 +194,7 @@ form
   margin-top: 10px;
   background-color: #e74c3c;
   text-align: center;
-  font: 20pt "Helvetica Light", sans-serif;
+  font: 20pt "Helvetica Light", Arial, sans-serif;
   color: white;
   border: none;
 }
@@ -204,7 +212,7 @@ h3
 {
   margin: 0;
   color: #333333;
-  font: 12pt "Helvetica Bold", sans-serif;
+  font: bold 12pt "Helvetica Normal", Arial, sans-serif;
   text-transform: uppercase;
   padding-top: 20px;
 }
@@ -212,9 +220,7 @@ h3
 {
   margin: 0;
   color: #333333;
-  font: 10pt "Helvetica Light", sans-serif;
-  /*font-family: "Myriad Pro";
-  font-weight: lighter;*/
+  font: 10pt "Helvetica Light", Arial, sans-serif;
   line-height: 17pt;
   padding-top: 20px;
 }
@@ -224,7 +230,7 @@ h3
 }
 .bluetitle
 {
-  font: 20pt "Helvetica Light", sans-serif;
+  font: 20pt "Helvetica Light", Arial, sans-serif;
   text-transform: uppercase;
   color: #3498db;
   display: block;
@@ -264,7 +270,7 @@ div.col-last
   display: inline-block;
   margin: 0 auto;
   text-decoration: none;
-  font: 10pt "Helvetica Light", sans-serif;
+  font: 10pt "Helvetica Light", Arial, sans-serif;
   text-transform: uppercase;
   color: #333333;
 }
@@ -291,12 +297,8 @@ span.view
   height: 40px;
   border: solid 1px #e6e6e6;
   border-radius: 25px;
-  /*text-decoration: none;*/
-  /*text-align: center;*/
   display: inline-block;
   background: url(Images/arrow-gray-right.png) center 11px no-repeat;
-  /*font: 14pt "Helvetica Light", sans-serif;
-  color: #8b8b8b;*/
 }
 .last-next-left
 {
@@ -304,32 +306,18 @@ span.view
   height: 40px;
   border: solid 1px #e6e6e6;
   border-radius: 25px;
-  /*text-decoration: none;*/
-  /*text-align: center;*/
   display: inline-block;
   background: url(Images/arrow-gray-left.png) center no-repeat;
-  /*font: 14pt "Helvetica Light", sans-serif;
-  color: #8b8b8b;*/
 }
 .last-next-right:hover
 {
   background: url(Images/arrow-black-right.png) center no-repeat;
-  /*color: #333333;*/
   background-color: #f2f2f2;
 }
 .last-next-left:hover
 {
   background: url(Images/arrow-black-left.png) center no-repeat;
-  /*color: #333333;*/
   background-color: #f2f2f2;
-}
-span.last-next-text
-{
-  position: relative;
-  display: inline-block;
-  padding-top: 7px;
-  -moz-transform: scaleY(2);
-  -webkit-transform: scaleY(2);
 }
 .last-next-box
 {
@@ -340,21 +328,21 @@ span.last-next-text
 .signature
 {
   color: #333333;
-  font: 10pt "Helvetica Bold", sans-serif;
+  font: bold 10pt "Helvetica Normal", Arial, sans-serif;
   text-transform: uppercase;
   text-align: right;
 }
 .quote1
 {
   color: #f2f2f2;
-  font: 30pt "Helvetica Bold", sans-serif;
+  font: bold 40pt "Helvetica Normal", Arial, sans-serif;
   margin-top: 0;
   margin-bottom: -20px;
 }
 .quote2
 {
   color: #f2f2f2;
-  font: 30pt "Helvetica Bold", sans-serif;
+  font: bold 40pt "Helvetica Normal", Arial, sans-serif;
   margin-top: 20px;
   text-align: right;
 }
@@ -390,11 +378,11 @@ span.last-next-text
 }
 .bigbutton-text
 {
-  font: 19pt "Helvetica Light", sans-serif;
+  font: 19pt "Helvetica Light", Arial, sans-serif;
   color: white;
-  margin-top: 20px;
-  margin-left: -40px;
-  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -402,26 +390,15 @@ span.last-next-text
 .circle
 {
   color: white;
-  display: inline-block;
   height: 30px;
   width: 30px;
   border: solid 2px white;
   border-radius: 35px;
   position: absolute;
-  margin-left: 15px;
-  margin-top: 13px;
+  right: 15px;
+  top: 13px;
   background: url(Images/arrow-white-big.png) center no-repeat;
 }
-/*.circle-arrow
-{
-  display: block;
-  margin-top: 4px;
-  margin-left: 3px;
-  font: 17pt "Helvetica Light", sans-serif;
-  -moz-transform: scaleY(2);
-  -webkit-transform: scaleY(2);
-  position: relative;
-}*/
 .student
 {
   position: relative;
@@ -439,60 +416,57 @@ span.last-next-text
 {
   width: 990px;
   margin: 0 auto;
+  position: relative;
 }
 .biglogo
 {
   position: absolute;
   margin-top: 50px;
   margin-left: 0;
-  /*float: left;*/
   height: 70px;
   width: 70px;
   border: solid 2px white;
   border-radius: 80px;
   display: inline-block;
-}
-.bigabc
-{
-  font: 20pt "Helvetica Light", sans-serif;
-  position: absolute;
-  top: 23px;
-  left: 7px;
-  color: white;
-  display: inline-block;
-  letter-spacing: 1px;
+  background: url(Images/ABCbig.png) center no-repeat;
 }
 .biglogotext
 {
-  font: 19pt "Helvetica Light", sans-serif;
+  font: 19pt "Helvetica Light", Arial, sans-serif;
   color: white;
   letter-spacing: 1px;
 }
 .biglogo-box
 {
-  height: 50px;
+  height: auto;
   width: 170px;
   display: inline-block;
   border-right: solid 1px #2980b9;
-  position: relative;
+  position: absolute;
   margin-top: 62px;
-  margin-left: 150px;
-  /*float: left;*/
+  margin-left: 90px;
 }
 .connectbottom
 {
-  display: inline-block;
+  position: absolute;
   height: 25px;
   width: 145px;
-  padding-left: 20px;
-  padding-top: 60px;
+  left: 280px;
+  top: 60px;
 }
 .copyright
 {
-  display: block;
-  float: left;
+  position: absolute;
   color: white;
-  font: 10pt "Helvetica Light", sans-serif;
-  margin-top: 7px;
-  padding-left: 20px;
+  font: 10pt "Helvetica Light", Arial, sans-serif;
+  top: 95px;
+  left: 280px;
 }
+a
+{
+    cursor: pointer;
+}
+/*input[placeholder]
+{
+  text-indent: 3px;
+}*/

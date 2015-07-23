@@ -22,19 +22,16 @@
     }
     .title1
     {
-      font: 32pt "Helvetica Bold", sans-serif;
+      font: 32pt "Helvetica Bold", Arial, sans-serif;
+      font-weight: 700;
     }
     .title2
     {
-      font: 19pt "Helvetica Light", sans-serif;
+      font: 19pt "Helvetica Light", Arial, sans-serif;
       color: white;
       margin-top: -20px;
       line-height: 33pt;
       width: 400px;
-    }
-    .blueline
-    {
-      display: none;
     }
     form
     {
@@ -55,6 +52,10 @@
       margin-left: 310px;
       line-height: 14pt;
       float: left;
+    }
+    .grayheadertext
+    {
+      width: 380px;
     }
     .bluetitle
     {
@@ -116,26 +117,40 @@
     {
       width: 758px;
       margin: 0 auto;
+      position: relative;
     }
     .biglogo
     {
-      height: 60px;
-      width: 60px;
-      border-radius: 70px;
-    }
-    .bigabc
-    {
-      font: 18pt "Helvetica Light", sans-serif;
-      top: 20px;
-      left: 5px;
+      height: 50px;
+      width: 50px;
+      border: solid 2px white;
+      border-radius: 30px;
+      display: inline-block;
+      position: absolute;
+      margin-top: 60px;
+      margin-left: 0;
+      background: url(Images/ABCsmall.png) center no-repeat;
     }
     .biglogotext
     {
-      font: 17pt "Helvetica Light", sans-serif;
+      font: 17pt "Helvetica Light", Arial, sans-serif;
+      color: white;
+      letter-spacing: 1px;
+    }
+    .biglogo-box
+    {
+      height: auto;
+      width: 170px;
+      display: inline-block;
+      border-right: solid 1px #2980b9;
+      position: absolute;
+      top: 65px;
+      left: -10px;
+      margin: 0;
     }
     .connectbottom
     {
-      padding-left: 10px;
+      left: 240px;
     }
     .biglogo-box
     {
@@ -144,7 +159,7 @@
     }
     .copyright
     {
-    font: 8pt "Helvetica Light", sans-serif;
-    padding-left: 10px;
+    font: 8pt "Helvetica Light", Arial, sans-serif;
+    left: 240px;
     }
 }
