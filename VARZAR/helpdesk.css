@@ -1,0 +1,719 @@
+@font-face
+{
+  font-family: 'Helvetica Normal';
+  src: local('Helvetica Neue Roman'), url('fonts/HelveticaNeueCyr-Roman.otf') format('woff');
+}
+@font-face
+{
+  font-family: 'Helvetica Bold';
+  src: local('Helvetica Neue Bold'), url('fonts/HelveticaNeueCyr-Bold.otf') format('woff');
+}
+@font-face
+{
+  font-family: 'Helvetica Light';
+  src: local('Helvetica Neue Light'), url('fonts/HelveticaNeueCyr-Light.otf') format('woff');
+}
+
+body
+{
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+/*ХЕДЕР*/
+.header
+{
+  background: url(Images/Header-fon3.png) center 0px no-repeat;
+  height: 111px;
+  margin-bottom: 15px;
+}
+
+.header-box
+{
+  width: 1050px;
+  height: 111px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo
+{
+  height: 36px;
+  width: 122px;
+  display: inline-block;
+  margin-top: 40px;
+  background: url(Images/Logo-GoIT.png) center no-repeat;
+}
+
+.heading1
+{
+  font: 38pt "Helvetica Bold", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: -5px;
+  left: 128px;
+}
+
+.slogan
+{
+  font: 13.5pt "Helvetica Normal", Arial, sans-serif;
+  color: white;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+}
+
+/*бокс для одного блока*/
+div[class*="box"]
+{
+  width: 1050px;
+  min-height: 985px;
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+}
+
+div.blue__box
+{
+  margin-top: -15px;
+}
+
+div.red__box
+{
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+/*подложки для всех блоков*/
+.orange__background
+{
+  height: 985px;
+  width: 2500px;
+  margin-bottom: 0;
+  margin-left: -725px;
+  background: url(Images/background-orange-8.png) center bottom no-repeat;
+}
+
+.blue__background
+{
+  height: 985px;
+  width: 2500px;
+  margin-bottom: 0;
+  margin-left: -725px;
+  background: url(Images/background-blue-8.png) center bottom no-repeat;
+}
+
+.red__background
+{
+  height: 985px;
+  width: 2500px;
+  margin-bottom: 0;
+  margin-left: -725px;
+  background: url(Images/background-red-8.png) center bottom no-repeat;
+}
+
+/*заголовки для каждого из трех блоков*/
+h2
+{
+  margin: 0;
+  position: absolute;
+  top: 95px;
+  left: 0;
+  font: 21pt "Helvetica Bold", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*заголовки - цвета*/
+.orange__heading2
+{
+  color: #fdeee3;
+}
+
+.blue__heading2
+{
+  color: #d6eeed;
+}
+
+.red__heading2
+{
+  color: #fde0d9;
+}
+
+/*расположение большой иконки для всех блоков*/
+div[class*="bigicon"]
+{
+  position: absolute;
+  top: 0px;
+  left: 355px;
+  display: block;
+  height: 409px;
+  width: 340px;
+}
+
+a[class*="smalliconHref"]
+{
+  width: 99px;
+  height: 116px;
+  display: block;
+}
+
+
+/*расставляем маленькие иконки по позициям для всех блоков - ПОЛУКРУГ*/
+li[class*="smallicon-1"]
+{
+  top: 227px;
+  left: 237px;
+  width: 99px;
+  height: 116px;
+  display: block;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+li[class*="smallicon-2"]
+{
+  top: 330px;
+  left: 307px;
+  background: url(Images/Smallicon-1-2.png) center no-repeat;
+  width: 99px;
+  height: 116px;
+  display: block;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+li[class*="smallicon-3"]
+{
+  top: 398px;
+  left: 417px;
+  background: url(Images/Smallicon-1-3.png) center no-repeat;
+  width: 99px;
+  height: 116px;
+  display: block;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+li[class*="smallicon-4"]
+{
+  top: 398px;
+  left: 536px;
+  background: url(Images/Smallicon-1-4.png) center no-repeat;
+  width: 99px;
+  height: 116px;
+  display: block;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+li[class*="smallicon-5"]
+{
+  top: 330px;
+  left: 645px;
+  background: url(Images/Smallicon-1-5.png) center no-repeat;
+  width: 99px;
+  height: 116px;
+  display: block;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+li[class*="smallicon-6"]
+{
+  top: 227px;
+  left: 715px;
+  background: url(Images/Smallicon-1-6.png) center no-repeat;
+  width: 99px;
+  height: 116px;
+  display: block;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+/*расставляем маленькие иконки по позициям при скролле (сейчас для ховера всего блока) для всех блоков - В РЯД*/
+.orange__box:hover li[class*="smallicon-1"]
+{
+  top: 398px;
+  left: 38px;
+}
+
+.orange__box:hover li[class*="smallicon-2"]
+{
+  top: 398px;
+  left: 213px;
+}
+
+.orange__box:hover li[class*="smallicon-3"]
+{
+  top: 398px;
+  left: 388px;
+}
+
+.orange__box:hover li[class*="smallicon-4"]
+{
+  top: 398px;
+  left: 563px;
+}
+
+.orange__box:hover li[class*="smallicon-5"]
+{
+  top: 398px;
+  left: 738px;
+}
+
+.orange__box:hover li[class*="smallicon-6"]
+{
+  top: 398px;
+  left: 913px;
+}
+
+
+/*расставляем картинки в оранжевый блок*/
+li.orange__smallicon-1
+{
+  background: url(Images/Smallicon-1-1.png) center no-repeat;
+}
+
+li.orange__smallicon-2
+{
+  background: url(Images/Smallicon-1-2.png) center no-repeat;
+}
+
+li.orange__smallicon-3
+{
+  background: url(Images/Smallicon-1-3.png) center no-repeat;
+}
+
+li.orange__smallicon-4
+{
+  background: url(Images/Smallicon-1-4.png) center no-repeat;
+}
+
+li.orange__smallicon-5
+{
+  background: url(Images/Smallicon-1-5.png) center no-repeat;
+}
+
+li.orange__smallicon-6
+{
+  background: url(Images/Smallicon-1-6.png) center no-repeat;
+}
+
+/*расставляем картинки в голубой блок*/
+li.blue__smallicon-1
+{
+  background: url(Images/Smallicon-2-1.png) center no-repeat;
+}
+
+li.blue__smallicon-2
+{
+  background: url(Images/Smallicon-2-2.png) center no-repeat;
+}
+
+li.blue__smallicon-3
+{
+  background: url(Images/Smallicon-2-3.png) center no-repeat;
+}
+
+li.blue__smallicon-4
+{
+  background: url(Images/Smallicon-2-4.png) center no-repeat;
+}
+
+li.blue__smallicon-5
+{
+  background: url(Images/Smallicon-2-5.png) center no-repeat;
+}
+
+li.blue__smallicon-6
+{
+  background: url(Images/Smallicon-2-6.png) center no-repeat;
+}
+
+/*расставляем картинки в красный блок*/
+li.red__smallicon-1
+{
+  background: url(Images/Smallicon-3-1.png) center no-repeat;
+}
+
+li.red__smallicon-2
+{
+  background: url(Images/Smallicon-3-2.png) center no-repeat;
+}
+
+li.red__smallicon-3
+{
+  background: url(Images/Smallicon-3-3.png) center no-repeat;
+}
+
+li.red__smallicon-4
+{
+  background: url(Images/Smallicon-3-4.png) center no-repeat;
+}
+
+li.red__smallicon-5
+{
+  background: url(Images/Smallicon-3-5.png) center no-repeat;
+}
+
+li.red__smallicon-6
+{
+  background: url(Images/Smallicon-3-6.png) center no-repeat;
+}
+
+/*смена иконки при ховере ОРАНЖЕВЫЕ*/
+li.orange__smallicon-1:hover
+{
+  background: url(Images/Smallicon-1-1-hover.png) center no-repeat;
+}
+
+li.orange__smallicon-2:hover
+{
+  background: url(Images/Smallicon-1-2-hover.png) center no-repeat;
+}
+
+li.orange__smallicon-3:hover
+{
+  background: url(Images/Smallicon-1-3-hover.png) center no-repeat;
+}
+
+li.orange__smallicon-4:hover
+{
+  background: url(Images/Smallicon-1-4-hover.png) center no-repeat;
+}
+
+li.orange__smallicon-5:hover
+{
+  background: url(Images/Smallicon-1-5-hover.png) center no-repeat;
+}
+
+li.orange__smallicon-6:hover
+{
+  background: url(Images/Smallicon-1-6-hover.png) center no-repeat;
+}
+
+/*смена иконки при ховере ГОЛУБЫЕ*/
+li.blue__smallicon-1:hover
+{
+  background: url(Images/Smallicon-2-1-hover.png) center no-repeat;
+}
+
+li.blue__smallicon-2:hover
+{
+  background: url(Images/Smallicon-2-2-hover.png) center no-repeat;
+}
+
+li.blue__smallicon-3:hover
+{
+  background: url(Images/Smallicon-2-3-hover.png) center no-repeat;
+}
+
+li.blue__smallicon-4:hover
+{
+  background: url(Images/Smallicon-2-4-hover.png) center no-repeat;
+}
+
+li.blue__smallicon-5:hover
+{
+  background: url(Images/Smallicon-2-5-hover.png) center no-repeat;
+}
+
+li.blue__smallicon-6:hover
+{
+  background: url(Images/Smallicon-2-6-hover.png) center no-repeat;
+}
+
+/*смена иконки при ховере КРАСНЫЕ*/
+li.red__smallicon-1:hover
+{
+  background: url(Images/Smallicon-3-1-hover.png) center no-repeat;
+}
+
+li.red__smallicon-2:hover
+{
+  background: url(Images/Smallicon-3-2-hover.png) center no-repeat;
+}
+
+li.red__smallicon-3:hover
+{
+  background: url(Images/Smallicon-3-3-hover.png) center no-repeat;
+}
+
+li.red__smallicon-4:hover
+{
+  background: url(Images/Smallicon-3-4-hover.png) center no-repeat;
+}
+
+li.red__smallicon-5:hover
+{
+  background: url(Images/Smallicon-3-5-hover.png) center no-repeat;
+}
+
+li.red__smallicon-6:hover
+{
+  background: url(Images/Smallicon-3-6-hover.png) center no-repeat;
+}
+
+/*общие параметры для всех маленьких иконок*/
+ul li
+{
+  position: absolute;
+  width: 99px;
+  height: 116px;
+}
+
+/*ОПИСАНИЯ*/
+
+dt
+{
+  height: 37px;
+  width: 175px;
+  position: absolute;
+  top: 530px;
+  z-index: 100;
+}
+
+dt p[class*="heading3"]
+{
+  /*margin-top: 5px;*/
+  font: 9pt "Helvetica Normal", Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+p[class*="LMS"]
+{
+  margin-top: 5px;
+}
+
+a
+{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*картинки-плашки в заголовки описания*/
+dt[class*="orange"]
+{
+  background: url(Images/Orange-plashka.png) center no-repeat;
+}
+
+dt[class*="blue"]
+{
+  background: url(Images/Blue-plashka.png) center no-repeat;
+}
+
+dt[class*="red"]
+{
+  background: url(Images/Red-plashka.png) center no-repeat;
+}
+
+
+/*расставляем заголовки-описания по местам - для всех трех блоков*/
+dt[class*="list-1"]
+{
+  left: 0;
+}
+
+dt[class*="list-2"]
+{
+  left: 175px;
+}
+
+dt[class*="list-3"]
+{
+  left: 350px;
+}
+
+dt[class*="list-4"]
+{
+  left: 525px;
+}
+
+dt[class*="list-5"]
+{
+  left: 700px;
+}
+
+dt[class*="list-6"]
+{
+  left: 875px;
+}
+
+
+/*cтілі для иконок соцсетей*/
+dd[class*="describe"] div a
+{
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+  width: 38px;
+  height: 38px;
+}
+
+/*ПОДЛОЖКИ ПОД ОПИСАНИЯ*/
+dd[class*="describe"] div
+{
+  position: absolute;
+  top: 548px;
+  width: 155px;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p[id*="describetext"]
+{
+  font: 10pt "Helvetica Normal", Arial, sans-serif;
+  color: black;
+}
+
+dd[class*="describe-1"] div
+{
+  left: 0;
+}
+
+dd[class*="describe-2"] div
+{
+  left: 175px;
+}
+
+dd[class*="describe-3"] div
+{
+  left: 350px;
+}
+
+dd[class*="describe-4"] div
+{
+  left: 525px;
+}
+
+dd[class*="describe-5"] div
+{
+  left: 700px;
+}
+
+dd[class*="describe-6"] div
+{
+  left: 875px;
+}
+
+/*задаем цвета плашек под опісаніем прі ховере*/
+dd[class*="orange"]:hover div
+{
+  background-color: #f9e1cc;
+}
+
+dd[class*="blue"]:hover div
+{
+  background-color: #bee4e3;;
+}
+
+dd[class*="red"]:hover div
+{
+  background-color: #fccdc2;
+}
+
+/*ссылки в тексте ЧТО_ТО НЕ РАБОТАЕТ!!!!!!!!!!!!!!!!!!!!!!! упалі вніз*/
+.href-in-text
+{
+  color: blue;
+}
+
+/*болд при наведении на заголовок описания ЧТО_ТО НЕ РАБОТАЕТ!!!!!!!! не делается болд!!!!*/
+dt.orange__list-1:hover p.orange__heading3-1
+{
+  font-weight: 700;
+  color: green;
+}
+
+dt:hover p
+{
+  font-weight: 700;
+  color: green;
+}
+
+/*появляется подложка при наведении на заголовок*/
+dt.orange__list-1:hover ~ dd.orange__describe-1 div
+{  background-color: #f9e1cc;}
+
+dt.orange__list-2:hover ~ dd.orange__describe-2 div
+{  background-color: #f9e1cc;}
+
+dt.orange__list-3:hover ~ dd.orange__describe-3 div
+{  background-color: #f9e1cc;}
+
+dt.orange__list-4:hover ~ dd.orange__describe-4 div
+{  background-color: #f9e1cc;}
+
+dt.orange__list-5:hover ~ dd.orange__describe-5 div
+{  background-color: #f9e1cc;}
+
+dt.orange__list-6:hover ~ dd.orange__describe-6 div
+{  background-color: #f9e1cc;}
+
+dt.blue__list-1:hover ~ dd.blue__describe-1 div
+{  background-color: #bee4e3;}
+
+dt.blue__list-2:hover ~ dd.blue__describe-2 div
+{  background-color: #bee4e3;}
+
+dt.blue__list-3:hover ~ dd.blue__describe-3 div
+{  background-color: #bee4e3;}
+
+dt.blue__list-4:hover ~ dd.blue__describe-4 div
+{  background-color: #bee4e3;}
+
+dt.blue__list-5:hover ~ dd.blue__describe-5 div
+{  background-color: #bee4e3;}
+
+dt.blue__list-6:hover ~ dd.blue__describe-6 div
+{  background-color: #bee4e3;}
+
+dt.red__list-1:hover ~ dd.red__describe-1 div
+{  background-color: #fccdc2;}
+
+dt.red__list-2:hover ~ dd.red__describe-2 div
+{  background-color: #fccdc2;}
+
+dt.red__list-3:hover ~ dd.red__describe-3 div
+{  background-color: #fccdc2;}
+
+dt.red__list-4:hover ~ dd.red__describe-4 div
+{  background-color: #fccdc2;}
+
+dt.red__list-5:hover ~ dd.red__describe-5 div
+{  background-color: #fccdc2;}
+
+dt.red__list-6:hover ~ dd.red__describe-6 div
+{  background-color: #fccdc2;}
+
+
+/*футер*/
+.creators
+{
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  font: 11pt "Helvetica Normal", Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
