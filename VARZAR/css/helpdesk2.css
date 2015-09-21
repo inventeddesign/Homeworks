@@ -61,6 +61,17 @@ header
   left: 128px;
 }
 
+.classred
+{
+  font: 38pt "Helvetica Bold", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: red;
+  position: absolute;
+  top: -5px;
+  left: 128px;
+}
+
 .slogan
 {
   font: 13.5pt "Helvetica Normal", Arial, sans-serif;
@@ -599,7 +610,7 @@ footer
   position: relative;
 }
 
-.contact
+.bluecontact
 {
   position: absolute;
   top: 95px;
@@ -608,10 +619,19 @@ footer
   height: 127px;
 }
 
-div[class*="bigicon"]:hover ~ div.contact
+.redcontact
+{
+  position: absolute;
+  top: 95px;
+  left: 715px;
+  display: none;
+  height: 127px;
+}
+
+/*div[class*="bigicon"]:hover ~ div.contact
 {
   display: block;
-}
+}*/
 
 p[class*="name"]
 {
@@ -705,7 +725,6 @@ div[class*="smallicon"]:hover ~ a[class*="heading3"]
   font-weight: bold;
 }
 
-
 /*наведение на подложку заголовка - болд заголовка*/
 div[class*="list"]:hover ~ a[class*="heading3"]
 {
@@ -788,37 +807,37 @@ dt.red__list-6:hover ~ dd.red__describe-6 div
 
 
 /*расставляем маленькие иконки по позициям при скролле (сейчас для ховера всего блока) для всех блоков - В РЯД*/
-.orange__box:hover div[class*="smallicon-1"]
+div.Scroll1
 {
   top: 398px;
   left: 38px;
 }
 
-.orange__box:hover div[class*="smallicon-2"]
+div.Scroll2
 {
   top: 398px;
   left: 213px;
 }
 
-.orange__box:hover div[class*="smallicon-3"]
+div.Scroll3
 {
   top: 398px;
   left: 388px;
 }
 
-.orange__box:hover div[class*="smallicon-4"]
+div.Scroll4
 {
   top: 398px;
   left: 563px;
 }
 
-.orange__box:hover div[class*="smallicon-5"]
+div.Scroll5
 {
   top: 398px;
   left: 738px;
 }
 
-.orange__box:hover div[class*="smallicon-6"]
+div.Scroll6
 {
   top: 398px;
   left: 913px;

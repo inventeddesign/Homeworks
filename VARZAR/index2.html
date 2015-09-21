@@ -4,19 +4,16 @@
     <meta charset="UTF-8"/>
     <title>GoIT HELPDESK</title>
     <link rel="stylesheet" type="text/css" href="css/helpdesk2.css">
-
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js.css"></script>
+    <!-- <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <!-- <script type="text/javascript"
-src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.
-min.js"></script> -->
   </head>
   <body>
     <!-- хедер -->
     <header>
       <div class="headerwrapper">
-        <div class="logo"  id="12345"></div>
+        <a href="http://goit.com.ua/"  target="_blank">
+          <div class="logo"></div></a>
         <h1 class="heading1">help desk</h1>
         <p class="slogan">Будь всегда в курсе событий!</p>
       </div>
@@ -130,8 +127,8 @@ min.js"></script> -->
 <div class="blue__box">
   <div class="blue__background"></div>
   <h2 class="blue__heading2">скорая<br/>помощь</h2>
-  <div class="blue__bigicon"><img src="Images/BigIcon-2.png"></div>
-  <div class="contact">
+  <div class="blue__bigicon" id="ShowBlueContact"><img src="Images/BigIcon-2.png"></div>
+  <div class="bluecontact">
     <p class="blue__name">Елена Варзар</p>
     <p class="blue__position">Customer happiness manager</br>тел (063) 631-65-43</p>
     <a href="#" target="_blank" class="fb"><img src="Images/IN.png" height="38" width="38"></a>
@@ -212,8 +209,8 @@ min.js"></script> -->
 <div class="red__box">
   <div class="red__background"></div>
   <h2 class="red__heading2">административные<br/>вопросы</h2>
-  <div class="red__bigicon"><img src="Images/BigIcon-3.png"></div>
-  <div class="contact">
+  <div class="red__bigicon" id="ShowRedContact"><img src="Images/BigIcon-3.png"></div>
+  <div class="redcontact">
     <p class="red__name">Анна Вишнева</p>
     <p class="red__position">Head of Customer Service Department</br>тел (XXX) XXX-XX-XX</p>
     <a href="#" target="_blank" class="fb"><img src="Images/IN.png" height="38" width="38"></a>
