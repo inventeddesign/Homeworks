@@ -28,7 +28,7 @@ html {
 
 header
 {
-  background: url(Images/Header-fon3.png) center 0px no-repeat;
+  background: url(../Images/Header-fon3.png) center 0px no-repeat;
   height: 111px;
   margin-bottom: 15px;
 }
@@ -47,7 +47,7 @@ header
   width: 122px;
   display: inline-block;
   margin-top: 40px;
-  background: url(Images/Logo-GoIT.png) center no-repeat;
+  background: url(../Images/Logo-GoIT.png) center no-repeat;
 }
 
 .heading1
@@ -98,7 +98,7 @@ div.red__box
   width: 2500px;
   margin-bottom: 0;
   margin-left: -725px;
-  background: url(Images/background-orange-8.png) center bottom no-repeat;
+  background: url(../Images/background-orange-8.png) center bottom no-repeat;
 }
 
 .blue__background
@@ -107,7 +107,7 @@ div.red__box
   width: 2500px;
   margin-bottom: 0;
   margin-left: -725px;
-  background: url(Images/background-blue-8.png) center bottom no-repeat;
+  background: url(../Images/background-blue-8.png) center bottom no-repeat;
 }
 
 .red__background
@@ -116,7 +116,7 @@ div.red__box
   width: 2500px;
   margin-bottom: 0;
   margin-left: -725px;
-  background: url(Images/background-red-8.png) center bottom no-repeat;
+  background: url(../Images/background-red-8.png) center bottom no-repeat;
 }
 
 /*заголовки для каждого из трех блоков*/
@@ -185,7 +185,7 @@ div[class*="smallicon-2"]
 {
   top: 330px;
   left: 307px;
-  background: url(Images/Smallicon-1-2.png) center no-repeat;
+  background: url(../Images/Smallicon-1-2.png) center no-repeat;
   width: 99px;
   height: 116px;
   display: block;
@@ -200,7 +200,7 @@ div[class*="smallicon-3"]
 {
   top: 398px;
   left: 417px;
-  background: url(Images/Smallicon-1-3.png) center no-repeat;
+  background: url(../Images/Smallicon-1-3.png) center no-repeat;
   width: 99px;
   height: 116px;
   display: block;
@@ -215,7 +215,7 @@ div[class*="smallicon-4"]
 {
   top: 398px;
   left: 536px;
-  background: url(Images/Smallicon-1-4.png) center no-repeat;
+  background: url(../Images/Smallicon-1-4.png) center no-repeat;
   width: 99px;
   height: 116px;
   display: block;
@@ -230,7 +230,7 @@ div[class*="smallicon-5"]
 {
   top: 330px;
   left: 645px;
-  background: url(Images/Smallicon-1-5.png) center no-repeat;
+  background: url(../Images/Smallicon-1-5.png) center no-repeat;
   width: 99px;
   height: 116px;
   display: block;
@@ -245,7 +245,7 @@ div[class*="smallicon-6"]
 {
   top: 227px;
   left: 715px;
-  background: url(Images/Smallicon-1-6.png) center no-repeat;
+  background: url(../Images/Smallicon-1-6.png) center no-repeat;
   width: 99px;
   height: 116px;
   display: block;
@@ -259,94 +259,94 @@ div[class*="smallicon-6"]
 /*расставляем картинки в оранжевый блок*/
 div.orange__smallicon-1
 {
-  background: url(Images/Smallicon-1-1.png) center no-repeat;
+  background: url(../Images/Smallicon-1-1.png) center no-repeat;
 }
 
 div.orange__smallicon-2
 {
-  background: url(Images/Smallicon-1-2.png) center no-repeat;
+  background: url(../Images/Smallicon-1-2.png) center no-repeat;
 }
 
 div.orange__smallicon-3
 {
-  background: url(Images/Smallicon-1-3.png) center no-repeat;
+  background: url(../Images/Smallicon-1-3.png) center no-repeat;
 }
 
 div.orange__smallicon-4
 {
-  background: url(Images/Smallicon-1-4.png) center no-repeat;
+  background: url(../Images/Smallicon-1-4.png) center no-repeat;
 }
 
 div.orange__smallicon-5
 {
-  background: url(Images/Smallicon-1-5.png) center no-repeat;
+  background: url(../Images/Smallicon-1-5.png) center no-repeat;
 }
 
 div.orange__smallicon-6
 {
-  background: url(Images/Smallicon-1-6.png) center no-repeat;
+  background: url(../Images/Smallicon-1-6.png) center no-repeat;
 }
 
 /*расставляем картинки в голубой блок*/
 div.blue__smallicon-1
 {
-  background: url(Images/Smallicon-2-1.png) center no-repeat;
+  background: url(../Images/Smallicon-2-1.png) center no-repeat;
 }
 
 div.blue__smallicon-2
 {
-  background: url(Images/Smallicon-2-2.png) center no-repeat;
+  background: url(../Images/Smallicon-2-2.png) center no-repeat;
 }
 
 div.blue__smallicon-3
 {
-  background: url(Images/Smallicon-2-3.png) center no-repeat;
+  background: url(../Images/Smallicon-2-3.png) center no-repeat;
 }
 
 div.blue__smallicon-4
 {
-  background: url(Images/Smallicon-2-4.png) center no-repeat;
+  background: url(../Images/Smallicon-2-4.png) center no-repeat;
 }
 
 div.blue__smallicon-5
 {
-  background: url(Images/Smallicon-2-5.png) center no-repeat;
+  background: url(../Images/Smallicon-2-5.png) center no-repeat;
 }
 
 div.blue__smallicon-6
 {
-  background: url(Images/Smallicon-2-6.png) center no-repeat;
+  background: url(../Images/Smallicon-2-6.png) center no-repeat;
 }
 
 /*расставляем картинки в красный блок*/
 div.red__smallicon-1
 {
-  background: url(Images/Smallicon-3-1.png) center no-repeat;
+  background: url(../Images/Smallicon-3-1.png) center no-repeat;
 }
 
 div.red__smallicon-2
 {
-  background: url(Images/Smallicon-3-2.png) center no-repeat;
+  background: url(../Images/Smallicon-3-2.png) center no-repeat;
 }
 
 div.red__smallicon-3
 {
-  background: url(Images/Smallicon-3-3.png) center no-repeat;
+  background: url(../Images/Smallicon-3-3.png) center no-repeat;
 }
 
 div.red__smallicon-4
 {
-  background: url(Images/Smallicon-3-4.png) center no-repeat;
+  background: url(../Images/Smallicon-3-4.png) center no-repeat;
 }
 
 div.red__smallicon-5
 {
-  background: url(Images/Smallicon-3-5.png) center no-repeat;
+  background: url(../Images/Smallicon-3-5.png) center no-repeat;
 }
 
 div.red__smallicon-6
 {
-  background: url(Images/Smallicon-3-6.png) center no-repeat;
+  background: url(../Images/Smallicon-3-6.png) center no-repeat;
 }
 
 
@@ -422,17 +422,17 @@ a
 /*картинки-плашки в заголовки описания*/
 div[class*="orange__list"]
 {
-  background: url(Images/Orange-plashka.png) center no-repeat;
+  background: url(../Images/Orange-plashka.png) center no-repeat;
 }
 
 div[class*="blue__list"]
 {
-  background: url(Images/Blue-plashka.png) center no-repeat;
+  background: url(../Images/Blue-plashka.png) center no-repeat;
 }
 
 div[class*="red__list"]
 {
-  background: url(Images/Red-plashka.png) center no-repeat;
+  background: url(../Images/Red-plashka.png) center no-repeat;
 }
 
 
@@ -587,7 +587,7 @@ div[class*="describe-6"]
 
 footer
 {
-  background: url(Images/Header-fon3.png) center 0px no-repeat;
+  background: url(../Images/Header-fon3.png) center 0px no-repeat;
   height: 111px;
 }
 
@@ -605,6 +605,7 @@ footer
   top: 95px;
   left: 715px;
   display: none;
+  height: 127px;
 }
 
 div[class*="bigicon"]:hover ~ div.contact
@@ -703,6 +704,7 @@ div[class*="smallicon"]:hover ~ a[class*="heading3"]
 {
   font-weight: bold;
 }
+
 
 /*наведение на подложку заголовка - болд заголовка*/
 div[class*="list"]:hover ~ a[class*="heading3"]
@@ -828,92 +830,92 @@ dt.red__list-6:hover ~ dd.red__describe-6 div
 /*смена иконки при ховере ОРАНЖЕВЫЕ*/
 div.orange__smallicon-1:hover
 {
-  background: url(Images/Smallicon-1-1-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-1-1-hover.png) center no-repeat;
 }
 
 div.orange__smallicon-2:hover
 {
-  background: url(Images/Smallicon-1-2-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-1-2-hover.png) center no-repeat;
 }
 
 div.orange__smallicon-3:hover
 {
-  background: url(Images/Smallicon-1-3-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-1-3-hover.png) center no-repeat;
 }
 
 div.orange__smallicon-4:hover
 {
-  background: url(Images/Smallicon-1-4-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-1-4-hover.png) center no-repeat;
 }
 
 div.orange__smallicon-5:hover
 {
-  background: url(Images/Smallicon-1-5-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-1-5-hover.png) center no-repeat;
 }
 
 div.orange__smallicon-6:hover
 {
-  background: url(Images/Smallicon-1-6-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-1-6-hover.png) center no-repeat;
 }
 
 /*смена иконки при ховере ГОЛУБЫЕ*/
 div.blue__smallicon-1:hover
 {
-  background: url(Images/Smallicon-2-1-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-2-1-hover.png) center no-repeat;
 }
 
 div.blue__smallicon-2:hover
 {
-  background: url(Images/Smallicon-2-2-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-2-2-hover.png) center no-repeat;
 }
 
 div.blue__smallicon-3:hover
 {
-  background: url(Images/Smallicon-2-3-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-2-3-hover.png) center no-repeat;
 }
 
 div.blue__smallicon-4:hover
 {
-  background: url(Images/Smallicon-2-4-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-2-4-hover.png) center no-repeat;
 }
 
 div.blue__smallicon-5:hover
 {
-  background: url(Images/Smallicon-2-5-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-2-5-hover.png) center no-repeat;
 }
 
 div.blue__smallicon-6:hover
 {
-  background: url(Images/Smallicon-2-6-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-2-6-hover.png) center no-repeat;
 }
 
 /*смена иконки при ховере КРАСНЫЕ*/
 div.red__smallicon-1:hover
 {
-  background: url(Images/Smallicon-3-1-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-3-1-hover.png) center no-repeat;
 }
 
 div.red__smallicon-2:hover
 {
-  background: url(Images/Smallicon-3-2-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-3-2-hover.png) center no-repeat;
 }
 
 div.red__smallicon-3:hover
 {
-  background: url(Images/Smallicon-3-3-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-3-3-hover.png) center no-repeat;
 }
 
 div.red__smallicon-4:hover
 {
-  background: url(Images/Smallicon-3-4-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-3-4-hover.png) center no-repeat;
 }
 
 div.red__smallicon-5:hover
 {
-  background: url(Images/Smallicon-3-5-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-3-5-hover.png) center no-repeat;
 }
 
 div.red__smallicon-6:hover
 {
-  background: url(Images/Smallicon-3-6-hover.png) center no-repeat;
+  background: url(../Images/Smallicon-3-6-hover.png) center no-repeat;
 }
