@@ -1,9 +1,10 @@
-$(document).ready(function(){
-$('.contact').show('slow')
+/* Это событие выполняется после того, как DOM полностью загрузился. И, естественно, почле того как загрузится библиотека*/
+/* И не забывай про точки с запятой  */
+jQuery( document ).ready(function($){
+  ￼$("h#125").click(function(event){ 
+    ￼alert("Hello!");
+  )￼};
+
+  
+  $('.contact').show('slow');
 });
-
-
-￼$("#12345").click(function(event){
-￼alert("Hello!")
-￼})
-//Это ИД логотипа
