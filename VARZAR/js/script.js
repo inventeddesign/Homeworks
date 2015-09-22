@@ -12,10 +12,6 @@ jQuery(document).ready(function($){
 
 
 jQuery(document).ready(function($){
-  $(window).click(function(){
-    var pix = $(window).scrollTop();
-    alert(pix);
-    });
   $(window).scroll(function(event){
     var pix = $(window).scrollTop();
     if(+pix >= 150 && +pix < 1130){

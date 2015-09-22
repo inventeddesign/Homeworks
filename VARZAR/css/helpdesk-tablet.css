@@ -1,0 +1,197 @@
+@media screen and (max-width: 1000px) and (min-width: 800px)
+{
+  .headerwrapper
+  {
+    width: 100%;
+    height: 111px;
+  }
+
+  .logo
+  {
+    margin-left: 10px;
+  }
+
+  .heading1
+  {
+    left: 140px;
+  }
+
+  .slogan
+  {
+    right: 10px;
+  }
+
+  div[class*="box"]
+  {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  h2
+  {
+    left: 180px;
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    font: 15pt "Helvetica Bold", Arial, sans-serif;
+    font-weight: 700;
+    top: -20px;
+    padding-top: 40px;
+  }
+
+  div[class*="bigicon"]
+  {
+    position: relative;
+    top: 0;
+    left: 10px;
+    height: 190px;
+    width: 150px;
+    background-size: cover;
+    display: block;
+  }
+
+  a[class*="smalliconHref"]
+  {
+    width: 70px;
+    height: 82px;
+    display: block;
+    color: green;
+  }
+
+  div[class*="smallicon"]
+  {
+    position: relative;
+    top: auto;
+    left: 10px;
+    width: 70px;
+    height: 82px;
+    background-size: cover;
+    display: inline-block;
+  }
+
+  div[class*=list]
+  {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    width: 175px;
+    background-position: right;
+    display: inline-block;
+  }
+
+  a[class*=heading3]
+  {
+    position: relative;
+    top: -34px;
+    left: -160px;
+    text-align: center;
+    height: 37px;
+    width: 175px;
+    display: inline-block;
+  }
+
+  a[class*="LMS"]
+  {
+    top: -27px;
+    padding-bottom: 14px;
+  }
+
+  div[class*="describe"]
+  {
+    position: relative;
+    top: -25px;
+    left: auto;
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 90px;
+    padding-right: 50px;
+    margin-top: 0;
+  }
+
+  div[class*=__background]
+  {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    background-repeat: repeat-y;
+  }
+
+  div.bluecontact
+  {
+    position: absolute;
+    top: 85px;
+    left: 180px;
+    height: 127px;
+    display: block;
+  }
+
+  div.redcontact
+  {
+    position: absolute;
+    top: 85px;
+    left: 180px;
+    height: 127px;
+    display: block;
+  }
+
+
+  .creators
+  {
+    font: 10pt "Helvetica Normal", Arial, sans-serif;
+  }
+
+  .footerwrapper
+  {
+    width: 100%;
+    height: 111px;
+  }
+
+  .bluecontact
+  {
+    position: absolute;
+    top: 95px;
+    left: 715px;
+    display: none;
+    height: 127px;
+  }
+
+  .redcontact
+  {
+    position: absolute;
+    top: 95px;
+    left: 715px;
+    display: none;
+    height: 127px;
+  }
+
+  p[class*="name"]
+  {
+    font: 12pt "Helvetica Bold", Arial, sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  p[class*="position"]
+  {
+    font: 10pt "Helvetica Normal", Arial, sans-serif;
+    margin: 0;
+  }
+
+  div[class*="Scroll"]
+  {
+    top: auto;
+    left: 10px;
+  }
+
+  div[class*=smallicon]:hover
+  {
+    background-size: cover;
+  }
+}
