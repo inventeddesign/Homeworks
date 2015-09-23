@@ -6,18 +6,11 @@
     height: 80px;
   }
 
-  header
-  {
-    /*background: url(../Images/Header-fon3.png) center 0px no-repeat;*/
-    height: 80px;
-    margin-bottom: 15px;
-  }
-
   .logo
   {
     height: 24px;
     width: 80px;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-left: 10px;
     background-size: cover;
   }
@@ -26,23 +19,18 @@
   {
     font: 23pt "Helvetica Bold", Arial, sans-serif;
     font-weight: 700;
-    top: -1px;
+    top: 9px;
     left: 95px;
   }
 
   .slogan
   {
     font: 10pt "Helvetica Normal", Arial, sans-serif;
-    top: 17px;
-    left: 290px;
+    top: 50px;
+    left: 95px;
+    right: auto;
+    position: absolute;
   }
-
-  /*.forTablet
-  {
-    width: 700px;
-    margin: 0 auto;
-    position: relative;
-  }*/
 
   div[class*="box"]
   {
@@ -73,6 +61,7 @@
     width: 150px;
     background-size: cover;
     display: block;
+    margin-bottom: 30px;
   }
 
   a[class*="smalliconHref"]
@@ -92,28 +81,48 @@
     height: 82px;
     background-size: cover;
     display: inline-block;
+    z-index: 200;
   }
 
   div[class*=list]
   {
-    position: relative;
+    /*position: relative;
     top: -20px;
     left: 20px;
     width: 175px;
     background-position: right;
-    display: inline-block;
+    display: inline-block;*/
+    display: none;
   }
 
   a[class*=heading3]
   {
     position: relative;
     top: -34px;
-    left: -160px;
-    text-align: center;
+    left: 15px;
+    text-align: left;
     height: 37px;
-    width: 175px;
+    width: auto;
     display: inline-block;
+    font: 12pt "Helvetica Bold", Arial, sans-serif;
+    font-weight: bold;
   }
+
+  a[class*=orange__heading3]
+  {
+    color:#ed6800;
+  }
+
+  a[class*=blue__heading3]
+  {
+    color:#009cad;
+  }
+
+  a[class*=red__heading3]
+  {
+    color:#c9252c;
+  }
+
 
   a[class*="LMS"]
   {
@@ -144,6 +153,7 @@
     left: 0;
     margin-left: 0;
     background-repeat: repeat-y;
+    margin-top: -15px;
   }
 
   div.bluecontact

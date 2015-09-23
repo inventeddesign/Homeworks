@@ -27,6 +27,7 @@
     height: auto;
     margin: 0 auto;
     position: relative;
+    /*padding-top: 15px;*/
   }
 
   h2
@@ -35,7 +36,7 @@
     position: absolute;
     display: inline-block;
     width: auto;
-    font: 15pt "Helvetica Bold", Arial, sans-serif;
+    font: 19pt "Helvetica Bold", Arial, sans-serif;
     font-weight: 700;
     top: -20px;
     padding-top: 40px;
@@ -50,6 +51,7 @@
     width: 150px;
     background-size: cover;
     display: block;
+    margin-bottom: 30px;
   }
 
   a[class*="smalliconHref"]
@@ -69,27 +71,47 @@
     height: 82px;
     background-size: cover;
     display: inline-block;
+    z-index: 200;
   }
 
   div[class*=list]
   {
-    position: relative;
+    /*position: relative;
     top: -20px;
     left: 20px;
     width: 175px;
     background-position: right;
-    display: inline-block;
+    display: inline-block;*/
+    display: none;
   }
 
   a[class*=heading3]
   {
     position: relative;
     top: -34px;
-    left: -160px;
-    text-align: center;
+    left: 15px;
+    text-align: left;
     height: 37px;
-    width: 175px;
+    width: auto;
     display: inline-block;
+    color: green;
+    font: 12pt "Helvetica Bold", Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  a[class*=orange__heading3]
+  {
+    color:#ed6800;
+  }
+
+  a[class*=blue__heading3]
+  {
+    color:#009cad;
+  }
+
+  a[class*=red__heading3]
+  {
+    color:#c9252c;
   }
 
   a[class*="LMS"]
@@ -121,6 +143,7 @@
     left: 0;
     margin-left: 0;
     background-repeat: repeat-y;
+    margin-top: -15px;
   }
 
   div.bluecontact

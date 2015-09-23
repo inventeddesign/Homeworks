@@ -720,10 +720,10 @@ div[class*="red__describe"]:hover
 }
 
 /*наведеніе на іконку - появленіе болд у заголовка*/
-div[class*="smallicon"]:hover ~ a[class*="heading3"]
+/*div[class*="smallicon"]:hover ~ a[class*="heading3"]
 {
   font-weight: bold;
-}
+}*/
 
 /*наведение на подложку заголовка - болд заголовка*/
 div[class*="list"]:hover ~ a[class*="heading3"]
@@ -806,7 +806,7 @@ dt.red__list-6:hover ~ dd.red__describe-6 div
 
 
 
-/*расставляем маленькие иконки по позициям при скролле (сейчас для ховера всего блока) для всех блоков - В РЯД*/
+/*расставляем маленькие иконки по позициям при скролле через скріпт*/
 div.Scroll1
 {
   top: 398px;
@@ -847,7 +847,7 @@ div.Scroll6
 
 
 /*смена иконки при ховере ОРАНЖЕВЫЕ*/
-div.orange__smallicon-1:hover
+div.orange__smallicon-1hover
 {
   background: url(../Images/Smallicon-1-1-hover.png) center no-repeat;
 }
