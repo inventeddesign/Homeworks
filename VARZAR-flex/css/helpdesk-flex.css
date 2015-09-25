@@ -20,7 +20,7 @@ body
   margin: 0;
 }
 
-html, body, header {
+html, body {
   overflow-x: hidden;
 }
 
@@ -28,11 +28,8 @@ header
 {
   background: url(../Images/Header-fon3.png) center 0px no-repeat;
   height: 111px;
-  width: 100%;
   margin-bottom: 15px;
-  position: fixed;
-  top: 0;
-  z-index: 3;
+  /*position: fixed;*/
 }
 
 .headerwrapper
@@ -49,7 +46,7 @@ header
   width: 122px;
   display: inline-block;
   margin-top: 40px;
-  background: url(../Images/Logo-GoIT.png) left no-repeat;
+  background: url(../Images/Logo-GoIT.png) center no-repeat;
 }
 
 .heading1
@@ -72,42 +69,7 @@ header
   right: 0px;
 }
 
-.navig1
-{
-  position: fixed;
-  height: 40px;
-  width: 34px;
-  background: url(../Images/BigIcon-1.png) center bottom no-repeat;
-  background-size: cover;
-  top: 120px;
-  right: 20px;
-  z-index: 5;
-}
-
-.navig2
-{
-  position: fixed;
-  height: 40px;
-  width: 34px;
-  background: url(../Images/BigIcon-2.png) center bottom no-repeat;
-  background-size: cover;
-  top: 165px;
-  right: 20px;
-  z-index: 6;
-}
-
-.navig3
-{
-  position: fixed;
-  height: 40px;
-  width: 34px;
-  background: url(../Images/BigIcon-3.png) center bottom no-repeat;
-  background-size: cover;
-  top: 210px;
-  right: 20px;
-  z-index: 7;
-}
-
+/*бокс для одного блока*/
 div[class*="box"]
 {
   width: 1050px;
@@ -115,11 +77,6 @@ div[class*="box"]
   margin: 0 auto;
   position: relative;
   overflow: visible;
-}
-
-div.orange__box
-{
-margin-top: 126px;
 }
 
 .orange__background
@@ -388,7 +345,7 @@ div[class*=list]
   width: 175px;
   position: absolute;
   top: 530px;
-  z-index: 1;
+  z-index: 100;
 }
 
 a[class*=heading3]
@@ -401,7 +358,7 @@ a[class*=heading3]
   width: 175px;
   position: absolute;
   top: 530px;
-  z-index: 2;
+  z-index: 200;
   margin-top: 10px;
 }
 
@@ -538,9 +495,6 @@ div[class*="describe"]
   padding-bottom: 0px;
   padding-left: 10px;
   padding-right: 10px;
-
-  overflow: scroll;
-  max-height: 420px;
 }
 
 p[class*="describetext"]
@@ -779,44 +733,4 @@ div.red__smallicon-hover4
 div.red__smallicon-hover5
 {
   background: url(../Images/Smallicon-3-5-hover.png) center no-repeat;
-}
-
-
-div[class*="orange__list"]
-{
-  display: none;
-}
-
-a[class*="orange__heading3"]{
-  display: none;
-}
-
-div[class*="orange__describe-"]{
-  display: none;
-}
-
-div[class*="blue__list"]
-{
-  display: none;
-}
-
-a[class*="blue__heading3"]{
-  display: none;
-}
-
-div[class*="blue__describe-"]{
-  display: none;
-}
-
-div[class*="red__list"]
-{
-  display: none;
-}
-
-a[class*="red__heading3"]{
-  display: none;
-}
-
-div[class*="red__describe-"]{
-  display: none;
 }

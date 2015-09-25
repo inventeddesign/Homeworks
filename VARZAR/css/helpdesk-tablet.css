@@ -29,6 +29,11 @@
     position: relative;
   }
 
+  div.orange__box
+  {
+  margin-top: 126px;
+  }
+
   h2
   {
     left: 180px;
@@ -53,6 +58,24 @@
     margin-bottom: 30px;
   }
 
+  .navig1
+  {
+    left: auto;
+    right: 10px;
+  }
+
+  .navig2
+  {
+    left: auto;
+    right: 10px;
+  }
+
+  .navig3
+  {
+    left: auto;
+    right: 10px;
+  }
+
   a[class*="smalliconHref"]
   {
     width: 70px;
@@ -70,25 +93,35 @@
     height: 82px;
     background-size: cover;
     display: inline-block;
-    z-index: 200;
+    z-index: 2;
   }
 
   div[class*=list]
   {
-    display: none;
+    position: relative;
+    height: 37px;
+    width: 12px;
+    left: 95px;
+    top: -60px;
+    background-position: right;
+    display: inline;
   }
 
   a[class*=heading3]
   {
     position: relative;
-    top: -34px;
-    left: 15px;
+    top: -85px;
+    left: 115px;
     text-align: left;
     height: 37px;
     width: auto;
-    display: inline-block;
-    color: green;
-    font: 12pt "Helvetica Normal", Arial, sans-serif;
+    display: inline;
+    font: 14pt "Helvetica Normal", Arial, sans-serif;
+  }
+
+  p[class*="describetext"]
+  {
+    font: 10pt "Helvetica Normal", Arial, sans-serif;
   }
 
   a[class*=orange__heading3]
@@ -109,15 +142,18 @@
   div[class*="describe"]
   {
     position: relative;
-    top: -25px;
+    top: -75px;
     left: auto;
     width: auto;
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 90px;
-    padding-right: 50px;
+    padding-right: 150px;
     margin-top: 0;
+
+    overflow: visible;
+    max-height: auto;
   }
 
   div[class*=__background]
@@ -166,7 +202,7 @@
     position: absolute;
     top: 95px;
     left: 715px;
-    display: none;
+    /*display: none;*/
     height: 127px;
   }
 
@@ -175,7 +211,7 @@
     position: absolute;
     top: 95px;
     left: 715px;
-    display: none;
+    /*display: none;*/
     height: 127px;
   }
 
@@ -201,5 +237,45 @@
   div[class*=smallicon]:hover
   {
     background-size: cover;
+  }
+
+
+  div[class*="orange__list"]
+  {
+    display: block;
+  }
+
+  a[class*="orange__heading3"]{
+    display: inline;
+  }
+
+  div[class*="orange__describe-"]{
+    display: block;
+  }
+
+  div[class*="blue__list"]
+  {
+    display: block;
+  }
+
+  a[class*="blue__heading3"]{
+    display: inline;
+  }
+
+  div[class*="blue__describe-"]{
+    display: block;
+  }
+
+  div[class*="red__list"]
+  {
+    display: block;
+  }
+
+  a[class*="red__heading3"]{
+    display: inline;
+  }
+
+  div[class*="red__describe-"]{
+    display: block;
   }
 }

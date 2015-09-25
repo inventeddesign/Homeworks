@@ -1,35 +1,24 @@
-@media screen and (max-width: 800px) and (min-width: 320px)
+@media screen and (max-width: 1000px) and (min-width: 800px)
 {
   .headerwrapper
   {
     width: 100%;
-    height: 80px;
+    height: 111px;
   }
 
   .logo
   {
-    height: 24px;
-    width: 80px;
-    margin-top: 35px;
     margin-left: 10px;
-    background-size: cover;
   }
 
   .heading1
   {
-    font: 23pt "Helvetica Bold", Arial, sans-serif;
-    font-weight: 700;
-    top: 9px;
-    left: 95px;
+    left: 140px;
   }
 
   .slogan
   {
-    font: 10pt "Helvetica Normal", Arial, sans-serif;
-    top: 50px;
-    left: 95px;
-    right: auto;
-    position: absolute;
+    right: 10px;
   }
 
   div[class*="box"]
@@ -38,29 +27,6 @@
     height: auto;
     margin: 0 auto;
     position: relative;
-  }
-
-    .navig1
-    {
-      left: auto;
-      right: 10px;
-    }
-
-    .navig2
-    {
-      left: auto;
-      right: 10px;
-    }
-
-    .navig3
-    {
-      left: auto;
-      right: 10px;
-    }
-
-  div.orange__box
-  {
-  margin-top: 126px;
   }
 
   h2
@@ -78,7 +44,7 @@
   div[class*="bigicon"]
   {
     position: relative;
-    top: 0px;
+    top: 0;
     left: 10px;
     height: 190px;
     width: 150px;
@@ -104,29 +70,24 @@
     height: 82px;
     background-size: cover;
     display: inline-block;
-    z-index: 2;
+    z-index: 200;
   }
 
   div[class*=list]
   {
-    position: relative;
-    height: 37px;
-    width: 12px;
-    left: 95px;
-    top: -60px;
-    background-position: right;
-    display: inline;
+    display: none;
   }
 
   a[class*=heading3]
   {
     position: relative;
-    top: -85px;
-    left: 115px;
+    top: -34px;
+    left: 15px;
     text-align: left;
     height: 37px;
     width: auto;
-    display: inline;
+    display: inline-block;
+    color: green;
     font: 14pt "Helvetica Normal", Arial, sans-serif;
   }
 
@@ -153,18 +114,15 @@
   div[class*="describe"]
   {
     position: relative;
-    top: -75px;
+    top: -25px;
     left: auto;
     width: auto;
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 90px;
-    padding-right: 100px;
+    padding-right: 50px;
     margin-top: 0;
-
-    overflow: visible;
-    max-height: 10000px;
   }
 
   div[class*=__background]
@@ -199,7 +157,7 @@
 
   .creators
   {
-    font: 9pt "Helvetica Normal", Arial, sans-serif;
+    font: 10pt "Helvetica Normal", Arial, sans-serif;
   }
 
   .footerwrapper
@@ -213,7 +171,7 @@
     position: absolute;
     top: 95px;
     left: 715px;
-    /*display: none;*/
+    display: none;
     height: 127px;
   }
 
@@ -222,7 +180,7 @@
     position: absolute;
     top: 95px;
     left: 715px;
-    /*display: none;*/
+    display: none;
     height: 127px;
   }
 
@@ -248,45 +206,5 @@
   div[class*=smallicon]:hover
   {
     background-size: cover;
-  }
-
-
-  div[class*="orange__list"]
-  {
-    display: block;
-  }
-
-  a[class*="orange__heading3"]{
-    display: inline;
-  }
-
-  div[class*="orange__describe-"]{
-    display: block;
-  }
-
-  div[class*="blue__list"]
-  {
-    display: block;
-  }
-
-  a[class*="blue__heading3"]{
-    display: inline;
-  }
-
-  div[class*="blue__describe-"]{
-    display: block;
-  }
-
-  div[class*="red__list"]
-  {
-    display: block;
-  }
-
-  a[class*="red__heading3"]{
-    display: inline;
-  }
-
-  div[class*="red__describe-"]{
-    display: block;
   }
 }
