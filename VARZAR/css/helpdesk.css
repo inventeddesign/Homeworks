@@ -27,7 +27,8 @@ html, body, header {
 header
 {
   background: url(../Images/Header-fon3.png) center 0px no-repeat;
-  background-size: auto;
+  /*background-size: contain;*/
+  overflow: hidden;
   height: 111px;
   width: 100%;
   margin-bottom: 15px;
