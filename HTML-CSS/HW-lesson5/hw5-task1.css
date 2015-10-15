@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*nav*/
+.menu {
+	background-color: #009eff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	width: 100%;
+}
+
+/*ul основной список*/
+.menu-list {
+	position: relative;
+	width: 900px;
+	height: 35px;
+	margin: 0 auto;
+}
+
+/*li пункты основного списка*/
+.item {
+	display: inline-block;
+	padding: 9px 12px;
+	text-align: center;
+}
+
+/*ссылки основного списка*/
+.item a {
+	font-family: impact, sans-serif;
+	text-decoration: none;
+	font-size: 13pt;
+	color: white;
+}
+
+.menu-list-second-wrapper {
+	position: absolute;
+	background-color: #f0efeb;
+	width: 100%;
+	height: 35px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	text-align: left;
+	left: 0;
+	top: 35px;
+	display: none;
+}
+
+/*ul выпадающий список*/
+.menu-list-second {
+	width: 100%;
+	height: 35px;
+	display: none;
+	text-align: center;
+}
+
+/*li пункты выпадающего списка*/
+.item2 {
+	display: inline-block;
+	padding: 8px 10px;
+	z-index: 1;
+}
+
+/*ссылки выпадающего списка*/
+.item2 a {
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: #9fa3a6;
+	font-size: 9pt;
+}
+
+/*выделение цветом при наведении курсора в основном меню*/
+.item:hover a {
+  color: #9fa3a6;
+}
+
+.item:hover {
+	background-color: #f0efeb;
+}
+
+/*выделение цветом при наведении курсора в выпадающем меню*/
+.item2:hover a {
+	color: black;
+}
+
+/*появление выпадающего меню*/
+nav ul #travels:hover .menu-list-second-wrapper {
+	display: block;
+}
+
+/*появление выпадающего меню*/
+nav ul #travels:hover .menu-list-second {
+	display: block;
+}

@@ -1,0 +1,169 @@
+/*@import
+url(http://fonts.googleapis.com/css?family=Trebuchet );*/
+
+
+/*основной блок*/
+.bg {
+  position: relative;
+  top: 40px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: white;
+  border: 4px solid #ee8129;
+  border-radius: 4px;
+  width: 288px;
+  height: 460px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+/*оранжевая плашка с текстом на ней*/
+.header-bg {
+  position: absolute;
+  top: 0;
+  width: 288px;
+  height: 73px;
+  background-color: #ee8129;
+}
+
+.text-header {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font: bold 17pt "Trebuchet MS";
+}
+
+/*заголовок на белом фоне*/
+.text-top {
+  position: absolute;
+  width: 288px;
+  margin: auto;
+  top: 93px;
+  text-transform: uppercase;
+  color: #3f4042;
+  letter-spacing: 1px;
+  font: normal 17pt "Trebuchet MS";
+}
+
+/*цена в общем div - доллар, цифра, слово */
+.text-price {
+  position: absolute;
+  width: 288px;
+  margin: auto;
+  top: 125px;
+  color: #35495a;
+}
+
+.dollar {
+  font: normal 16pt "Trebuchet MS";
+  vertical-align: 45px;
+}
+
+.price {
+  font: bold 55pt "Trebuchet MS";
+  letter-spacing: -3px;
+}
+
+.mon {
+  font: normal 13pt "Trebuchet MS";
+  vertical-align: -10px;
+}
+
+/*стили пунктов меню. list1 - голубой, list2 - серый,
+текст - общий стиль*/
+.list1 {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 235px;
+  width: 259px;
+  height: 33px;
+  background-color: #edf5fd;
+  text-align: left;
+}
+
+.list2 {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top:269px;
+  width: 259px;
+  height: 33px;
+  background-color: #f5f5f6;
+  text-align: left;
+}
+
+.list3 {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 303px;
+  width: 259px;
+  height: 33px;
+  background-color: #edf5fd;
+  text-align: left;
+}
+
+.list4 {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 337px;
+  width: 259px;
+  height: 33px;
+  background-color: #f5f5f6;
+  text-align: left;
+}
+
+/*текст в пунктах*/
+.text-list {
+  display: inline-block;
+  font: normal 11pt "Trebuchet MS";
+  color: #888c94;
+  padding-left: 13px;
+  padding-top: 8px;
+}
+
+/*отступ галочки*/
+.mark {
+  padding-left: 30px;
+}
+
+/*кнопка*/
+.shadow-button {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 390px;
+  width: 253px;
+  height: 38px;
+  background-color: #b3560b;
+  border-radius: 5px;
+}
+
+.button {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 387px;
+  width: 253px;
+  height: 38px;
+  background-color: #ee8129;
+  border-radius: 5px;
+}
+
+.text-button {
+  display: inline-block;
+  font: normal 11pt "Trebuchet MS";
+  color: white;
+  padding-left: 13px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+}

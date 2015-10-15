@@ -1,0 +1,165 @@
+@media screen and (max-width: 1000px) and (min-width: 800px)
+{
+    .blueheader-box
+    {
+      width: 758px;
+    }
+    .imgheader-box
+    {
+      width: 758px;
+    }
+    .grayheader-box
+    {
+      width: 758px;
+    }
+    .treeblock-box
+    {
+      width: 758px;
+    }
+    .feedback-box
+    {
+      width: 758px;
+    }
+    .title1
+    {
+      font: 32pt "Helvetica Bold", Arial, sans-serif;
+      font-weight: 700;
+    }
+    .title2
+    {
+      font: 19pt "Helvetica Light", Arial, sans-serif;
+      color: white;
+      margin-top: -20px;
+      line-height: 33pt;
+      width: 400px;
+    }
+    form
+    {
+      margin-top: -253px;
+    }
+    .boxtext-h3
+    {
+      display: block;
+    }
+    .boxtext
+    {
+      width: 430px;
+      height: 70px;
+      overflow: hidden;
+      display: inline-block;
+      position: relative;
+      margin-top: -130px;
+      margin-left: 310px;
+      line-height: 14pt;
+      float: left;
+    }
+    .grayheadertext
+    {
+      width: 380px;
+    }
+    .bluetitle
+    {
+      font: 16pt "Helvetica Light", sans-serif;
+    }
+    .treeblock
+    {
+      height: 640px;
+    }
+    .block
+    {
+      height: 215px;
+      width: 100%;
+      margin: auto;
+      text-align: left;
+      position: relative;
+    }
+    .bestimage
+    {
+      float: left;
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    div.col-last
+    {
+      float: none;
+      margin: auto;
+    }
+    .graycircle
+    {
+      margin-top: 95px;
+    }
+    .quote2
+    {
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+    .feedback-box-text
+    {
+      width: 530px;
+    }
+    .bigbutton-box
+    {
+      width: 758px;
+    }
+    .bigbutton
+    {
+      height: 60px;
+      width: 470px;
+    }
+
+    .bigbutton-text
+    {
+      font: 16pt "Helvetica Light", sans-serif;
+      margin-top: 22px;
+    }
+    .bluefuter-box
+    {
+      width: 758px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .biglogo
+    {
+      height: 50px;
+      width: 50px;
+      border: solid 2px white;
+      border-radius: 30px;
+      display: inline-block;
+      position: absolute;
+      margin-top: 60px;
+      margin-left: 0;
+      background: url(Images/ABCsmall.png) center no-repeat;
+    }
+    .biglogotext
+    {
+      font: 17pt "Helvetica Light", Arial, sans-serif;
+      color: white;
+      letter-spacing: 1px;
+    }
+    .biglogo-box
+    {
+      height: auto;
+      width: 170px;
+      display: inline-block;
+      border-right: solid 1px #2980b9;
+      position: absolute;
+      top: 65px;
+      left: -10px;
+      margin: 0;
+    }
+    .connectbottom
+    {
+      left: 240px;
+    }
+    .biglogo-box
+    {
+      width: 150px;
+      margin-left: 80px;
+    }
+    .copyright
+    {
+    font: 8pt "Helvetica Light", Arial, sans-serif;
+    left: 240px;
+    }
+}

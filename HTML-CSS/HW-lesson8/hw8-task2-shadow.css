@@ -1,0 +1,86 @@
+.arrow
+{
+  width: 50%;
+  background-color: #ffd04e;
+  height: 54px;
+  position: relative;
+  margin: 0 auto;
+  min-width: 470px;
+  background: linear-gradient(to top, #fed008 0%, #fde87f 100%);
+}
+
+.triangle
+{
+  position: relative;
+  left: 100%;
+  height: 54px;
+  width: 300px;
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 5% 50%);
+  background: linear-gradient(to top, #fed008 0%, #fde87f 100%);
+}
+
+.find
+{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  height: 24px;
+  width: 80%;
+  -webkit-box-shadow: inset 1px 1px 5px 2px #C9C9C9;
+  box-shadow: inset 1px 1px 2px 1px #C9C9C9;
+  border-style: none;
+}
+
+input.button-find
+{
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(226,226,226,1) 44%, rgba(191,191,191,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(44%,rgba(226,226,226,1)), color-stop(100%,rgba(191,191,191,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(226,226,226,1) 44%,rgba(191,191,191,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(226,226,226,1) 44%,rgba(191,191,191,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(226,226,226,1) 44%,rgba(191,191,191,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(226,226,226,1) 44%,rgba(191,191,191,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bfbfbf',GradientType=0 ); /* IE6-9 */
+  width: 69px;
+  height: 25px;
+  position: absolute;
+  top: 6px;
+  left: 83%;
+  font: 11pt normal arial, sans-serif;
+  border: 1px solid #c5c4c5;
+  /*-moz-border-image: -moz-linear-gradient(top, #ffffff 0%, #888888 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #ffffff 0%, #888888 100%);
+  border-image: linear-gradient(to bottombottom, #ffffff 0%, #888888 100%);
+  border-image-slice: 1;*/
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 0px 1px #a09fa0;
+}
+
+.box {
+  width: 69px;
+  height: 26px;
+  position: absolute;
+  top: 6px;
+  left: 83%;
+  border-radius: 3px;
+  background-color: red;
+  z-index: 9;
+  }
+
+
+.describe
+{
+  font: 9pt normal arial, sans-serif;
+  position: absolute;
+  top: 36px;
+  left: 6px;
+}
+
+.describe2
+{
+  font: 9pt normal arial, sans-serif;
+  position: absolute;
+  top: 36px;
+  left: 70px;
+  border-bottom: 1px dotted black;
+}

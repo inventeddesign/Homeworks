@@ -1,0 +1,73 @@
+.arrow
+{
+  width: 50%;
+  background-color: #ffd04e;
+  height: 54px;
+  position: relative;
+  margin: 0 auto;
+  min-width: 470px;
+  background: linear-gradient(to top, #fed008 0%, #fde87f 100%);
+}
+
+.triangle
+{
+  position: relative;
+  left: 100%;
+  height: 54px;
+  width: 300px;
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 5% 50%);
+  background: linear-gradient(to top, #fed008 0%, #fde87f 100%);
+}
+
+.find
+{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  height: 24px;
+  width: 80%;
+  -webkit-box-shadow: inset 1px 1px 5px 2px #C9C9C9;
+  box-shadow: inset 1px 1px 2px 1px #C9C9C9;
+  border-style: none;
+}
+
+input.button-find
+{
+  background-color: transparent;
+  width: 69px;
+  height: 26px;
+  position: absolute;
+  top: 6px;
+  left: 83%;
+  font: 11pt normal arial, sans-serif;
+  border-style: none;
+  z-index: 9;
+}
+
+.box {
+  width: 69px;
+  height: 26px;
+  position: absolute;
+  top: 6px;
+  left: 83%;
+  border-radius: 3px;
+  background: url(button.png) 0 0 no-repeat;
+  }
+
+
+.describe
+{
+  font: 9pt normal arial, sans-serif;
+  position: absolute;
+  top: 36px;
+  left: 6px;
+}
+
+.describe2
+{
+  font: 9pt normal arial, sans-serif;
+  position: absolute;
+  top: 36px;
+  left: 70px;
+  border-bottom: 1px dotted black;
+}

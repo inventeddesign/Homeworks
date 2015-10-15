@@ -1,0 +1,38 @@
+#menu {
+  font-family: impact, sans-serif;
+  margin: 20px 0;
+  list-style-type: none;
+  font-size: 20px;
+  height: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+li {
+  display: inline-block;
+  }
+
+.flo:first-child {
+  padding-left: 60px;
+  }
+
+#menu li a {
+  text-decoration: none;
+  padding: 0 20px;
+  line-height: 40px;
+  color: #be00fe;
+  }
+
+#menu.inl {
+  background: #be00fe;
+  }
+
+#menu.inl a {
+  color: white;
+  }
+
+#menu.inl li a:hover, #menu.inl li.active a {
+  color: #a1a29c;
+  background: #efefef;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  }

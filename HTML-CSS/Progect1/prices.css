@@ -1,0 +1,385 @@
+.title {
+  position: relative;
+  width: 100%;
+  height: 83px;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+  text-align: center;
+  min-width: 1120px;
+}
+
+.text-title {
+  text-transform: uppercase;
+  font: normal 22pt "Trebuchet MS";
+  padding-top: 25px;
+  color: #41525c;
+}
+
+/*разметка*/
+.treeflex {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.whiteleft {
+	flex: 1;
+  order: 1;
+}
+
+
+.bg-blue {
+  width: 288px;
+  min-width: 288px;
+  order: 2;
+}
+
+.bg {
+  width: 288px;
+  min-width: 288px;
+  order: 3;
+}
+
+.bg-green {
+  width: 288px;
+  min-width: 288px;
+  order: 4;
+}
+
+.whiteright {
+	flex: 1;
+  order: 5;
+}
+/*/разметка*/
+
+/*голубой блок*/
+.bg-blue {
+  position: relative;
+  top: 40px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: white;
+  border-top: 1px solid #e8eaec;
+  border-left: 1px solid #e8eaec;
+  border-bottom: 1px solid #e8eaec;
+  border-radius: 4px;
+  width: 288px;
+  height: 440px;
+  text-align: center;
+}
+/*голубая плашка с текстом на ней*/
+.header-bg-blue {
+  position: absolute;
+  top: 0;
+  width: 288px;
+  height: 63px;
+  background-color: #37c2d3;
+}
+.text-header-blue {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font: 17pt "Futuris Bold", sans-serif;
+}
+
+.shadow-button-blue {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 380px;
+  width: 253px;
+  height: 38px;
+  background-color: #16436a;
+  border-radius: 5px;
+}
+
+.button-blue {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 377px;
+  width: 253px;
+  height: 38px;
+  background-color: #3371a6;
+  border-radius: 5px;
+}
+/*конец голубого блока*/
+
+
+/*зеленый блок*/
+.bg-green {
+  position: relative;
+  top: 40px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: white;
+  border-top: 1px solid #e8eaec;
+  border-right: 1px solid #e8eaec;
+  border-bottom: 1px solid #e8eaec;
+  border-radius: 4px;
+  width: 288px;
+  height: 440px;
+  text-align: center;
+}
+
+/*зеленая плашка с текстом на ней*/
+.header-bg-green {
+  position: absolute;
+  top: 0;
+  width: 288px;
+  height: 63px;
+  background-color: #1cb79a;
+}
+.text-header-green {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font: 17pt "Futuris Bold", sans-serif;
+}
+/*конец зеленого блока*/
+
+.text-top-blue-green {
+  position: absolute;
+  width: 288px;
+  margin: auto;
+  top: 83px;
+  text-transform: uppercase;
+  color: #3f4042;
+  letter-spacing: 1px;
+  font: 17pt "Futuris Book", sans-serif;
+}
+.text-price-blue-green {
+  position: absolute;
+  width: 288px;
+  margin: auto;
+  top: 115px;
+  color: #35495a;
+}
+
+.list1-blue-green {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 225px;
+  width: 259px;
+  height: 33px;
+  background-color: #edf5fd;
+  text-align: left;
+}
+
+.list2-blue-green {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top:259px;
+  width: 259px;
+  height: 33px;
+  background-color: #f5f5f6;
+  text-align: left;
+}
+
+.list3-blue-green {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 293px;
+  width: 259px;
+  height: 33px;
+  background-color: #edf5fd;
+  text-align: left;
+}
+
+.list4-blue-green {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 327px;
+  width: 259px;
+  height: 33px;
+  background-color: #f5f5f6;
+  text-align: left;
+}
+
+
+
+
+/*оранжевый блок*/
+.bg {
+  position: relative;
+  top: 40px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: white;
+  border: 4px solid #ee8129;
+  border-radius: 4px;
+  width: 288px;
+  height: 460px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+/*оранжевая плашка с текстом на ней*/
+.header-bg {
+  position: absolute;
+  top: 0;
+  width: 288px;
+  height: 73px;
+  background-color: #ee8129;
+}
+
+.text-header {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font: 17pt "Futuris Bold", sans-serif;
+}
+
+/*заголовок на белом фоне*/
+.text-top {
+  position: absolute;
+  width: 288px;
+  margin: auto;
+  top: 93px;
+  text-transform: uppercase;
+  color: #3f4042;
+  letter-spacing: 1px;
+  font: 17pt "Futuris Book", sans-serif;
+}
+
+/*цена в общем div - доллар, цифра, слово */
+.text-price {
+  position: absolute;
+  width: 288px;
+  margin: auto;
+  top: 125px;
+  color: #35495a;
+}
+
+.dollar {
+  font: 16pt "Futuris Bold", sans-serif;
+  vertical-align: 45px;
+}
+
+.price {
+  font: 55pt "Futuris Bold", sans-serif;
+  /*font: bold 55pt "Trebuchet MS";*/
+  letter-spacing: -3px;
+}
+
+.mon {
+  font: 13pt "Futuris Book", sans-serif;
+  vertical-align: -10px;
+}
+
+/*стили пунктов меню. list1 - голубой, list2 - серый,
+текст - общий стиль*/
+.list1 {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 235px;
+  width: 259px;
+  height: 33px;
+  background-color: #edf5fd;
+  text-align: left;
+}
+
+.list2 {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top:269px;
+  width: 259px;
+  height: 33px;
+  background-color: #f5f5f6;
+  text-align: left;
+}
+
+.list3 {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 303px;
+  width: 259px;
+  height: 33px;
+  background-color: #edf5fd;
+  text-align: left;
+}
+
+.list4 {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 337px;
+  width: 259px;
+  height: 33px;
+  background-color: #f5f5f6;
+  text-align: left;
+}
+
+/*текст в пунктах*/
+.text-list {
+  display: inline-block;
+  font: normal 12pt "Calibri", sans-serif;
+  color: #888c94;
+  padding-left: 70px;
+  padding-top: 8px;
+}
+
+.text-list:before {
+  position: absolute;
+	width: 20px;
+  height: 20px;
+  margin-left: -35px;
+	background: url(mark.png) 0 0 no-repeat;
+	content: '';
+}
+
+/*кнопка*/
+.shadow-button {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 390px;
+  width: 253px;
+  height: 38px;
+  background-color: #b3560b;
+  border-radius: 5px;
+}
+
+.button {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 387px;
+  width: 253px;
+  height: 38px;
+  background-color: #ee8129;
+  border-radius: 5px;
+}
+
+.text-button {
+  display: inline-block;
+  font: 11pt "Open Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+  padding-left: 13px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+}

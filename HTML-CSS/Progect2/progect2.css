@@ -1,0 +1,469 @@
+@font-face
+{
+  font-family: 'Helvetica Normal';
+  src: local('Helvetica Neue Roman'), url('fonts/HelveticaNeueCyr-Roman.otf') format('woff');
+}
+@font-face
+{
+  font-family: 'Helvetica Bold';
+  src: local('Helvetica Neue Bold'), url('fonts/HelveticaNeueCyr-Bold.otf') format('woff');
+}
+@font-face
+{
+  font-family: 'Helvetica Light';
+  src: local('Helvetica Neue Light'), url('fonts/HelveticaNeueCyr-Light.otf') format('woff');
+}
+
+body
+{
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+.blueheader
+{
+  width: 100%;
+  height: 78px;
+  background-color: #3498db;
+}
+.blueheader-box
+{
+  width: 990px;
+  height: 78px;
+  margin: 0 auto;
+  position: relative;
+}
+.imgheader-box
+{
+  width: 990px;
+  margin: 0 auto;
+}
+.grayheader-box
+{
+  width: 990px;
+  margin: 0 auto;
+}
+.treeblock-box
+{
+  width: 990px;
+  margin: 0 auto;
+}
+.feedback-box
+{
+  width: 990px;
+  margin: 0 auto;
+}
+.logo
+{
+  height: 50px;
+  width: 50px;
+  border: solid 2px white;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 13px;
+  background: url(Images/ABCsmall.png) center no-repeat;
+}
+.logotext
+{
+  display: inline-block;
+  position: absolute;
+  font: 19pt "Helvetica Light", Arial, sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  left: 70px;
+  bottom: 25px;
+}
+.blueline
+{
+  display: none;
+}
+.connect
+{
+  position: absolute;
+  right: 0;
+  top: 28px;
+  height: 25px;
+  width: 145px;
+}
+.text__12pt__white
+{
+  display: block;
+  float: left;
+  color: white;
+  font: 10pt "Helvetica Light", Arial, sans-serif;
+  font-weight: 100;
+  margin-top: 7px;
+  margin-right: 7px;
+}
+.imgheader
+{
+  background: url(Images/Fon1.jpg) center 0px no-repeat;
+  height: 350px;
+}
+.title1
+{
+  font: 35pt "Helvetica Bold", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 80px;
+  margin-top: 0;
+}
+.title2
+{
+  font: 23pt "Helvetica Light", Arial, sans-serif;
+  font-weight: 100;
+  color: white;
+  margin-top: -20px;
+  line-height: 33pt;
+  width: 600px;
+}
+form
+{
+  height: 535px;
+  width: 360px;
+  background-color: white;
+  border-bottom: solid 5px #3498db;
+  float: right;
+  margin-top: -265px;
+}
+.formtitle
+{
+  font: 20pt "Helvetica Light", Arial, sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.formspace
+{
+  height: 34px;
+  width: 320px;
+  background-color: #f2f2f2;
+  border: solid 1px #e6e6e6;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font: 11pt "Helvetica Light", Arial, sans-serif;
+  font-weight: 100;
+  color: #333333;
+}
+.arrow
+{
+  position: relative;
+  display: inline-block;
+  background: url(Images/arrow-down.png) center 0px no-repeat;
+  top: 3px;
+  margin-left: -30px;
+  height: 15px;
+  width: 20px;
+}
+.adressspace
+{
+  height: 76px;
+  resize: none;
+}
+input::-webkit-input-placeholder
+{
+  color: black;
+  text-indent: 3px;
+}
+textarea::-webkit-input-placeholder
+{
+  color: black;
+  position: relative;
+  top: 30px;
+  text-indent: 3px;
+}
+input::-moz-placeholder
+{
+  color: black;
+  text-indent: 3px;
+}
+textarea::-moz-placeholder
+{
+  color: black;
+  position: relative;
+  top: 30px;
+  text-indent: 3px;
+}
+.formbutton
+{
+  height: 50px;
+  width: 220px;
+  position: relative;
+  margin-left: 70px;
+  margin-top: 10px;
+  background-color: #e74c3c;
+  text-align: center;
+  font: 20pt "Helvetica Light", Arial, sans-serif;
+  color: white;
+  border: none;
+  transition: background-color 0.2s linear;
+}
+.formbutton:hover
+{
+  background-color: #b41c0c;
+}
+.grayheader
+{
+  height: 250px;
+  border-bottom: solid 1px #e6e6e6;
+  background-color: #f2f2f2;
+}
+h3
+{
+  margin: 0;
+  color: #333333;
+  font: bold 12pt "Helvetica Normal", Arial, sans-serif;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.text__10pt__black
+{
+  margin: 0;
+  color: #333333;
+  font: 10pt "Helvetica Light", Arial, sans-serif;
+  line-height: 17pt;
+  padding-top: 20px;
+}
+.grayheadertext
+{
+  width: 550px;
+}
+.bluetitle
+{
+  font: 20pt "Helvetica Light", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #3498db;
+  display: block;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.treeblock
+{
+  width: 100%;
+  height: 440px;
+  position: relative;
+  display: inline-block;
+  border-bottom: solid 1px #e6e6e6;
+}
+.block
+{
+  height: 440px;
+  width: 290px;
+  margin-right: 57px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+div.col-last
+{
+  float: right;
+  margin-right: 0;
+}
+.graycircle
+{
+  height: 50px;
+  width: 50px;
+  border: solid 1px #e6e6e6;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  text-decoration: none;
+  font: 10pt "Helvetica Light", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #333333;
+}
+.graycircle:hover
+{
+  background-color: #f2f2f2;
+}
+span.view
+{
+  position: relative;
+  display: inline-block;
+  padding-top: 20px;
+}
+.boxtext
+{
+  width: 100%;
+  height: 130px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.last-next-right
+{
+  width: 40px;
+  height: 40px;
+  border: solid 1px #e6e6e6;
+  border-radius: 25px;
+  display: inline-block;
+  background: url(Images/arrow-gray-right.png) center 11px no-repeat;
+}
+.last-next-left
+{
+  width: 40px;
+  height: 40px;
+  border: solid 1px #e6e6e6;
+  border-radius: 25px;
+  display: inline-block;
+  background: url(Images/arrow-gray-left.png) center no-repeat;
+}
+.last-next-right:hover
+{
+  background: url(Images/arrow-black-right.png) center no-repeat;
+  background-color: #f2f2f2;
+}
+.last-next-left:hover
+{
+  background: url(Images/arrow-black-left.png) center no-repeat;
+  background-color: #f2f2f2;
+}
+.last-next-box
+{
+  float: right;
+  display: inline-block;
+  margin-top: -70px;
+}
+.signature
+{
+  color: #333333;
+  font: bold 10pt "Helvetica Normal", Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+}
+.quote1
+{
+  color: #f2f2f2;
+  font: bold 40pt "Helvetica Normal", Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: -20px;
+}
+.quote2
+{
+  color: #f2f2f2;
+  font: bold 40pt "Helvetica Normal", Arial, sans-serif;
+  margin-top: 20px;
+  text-align: right;
+}
+.feedback-box-text
+{
+  width: 750px;
+}
+.grayfuter
+{
+  height: 190px;
+  background-color: #f2f2f2;
+}
+.bigbutton-box
+{
+  width: 990px;
+  height: inherit;
+  margin: 0 auto;
+}
+.bigbutton
+{
+  height: 60px;
+  width: 540px;
+  position: relative;
+  background-color: #e74c3c;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 65px;
+  transition: background-color 0.2s linear;
+}
+.bigbutton:hover
+{
+  background-color: #c21b0a;
+}
+.bigbutton-text
+{
+  font: 19pt "Helvetica Light", Arial, sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.circle
+{
+  color: white;
+  height: 30px;
+  width: 30px;
+  border: solid 2px white;
+  border-radius: 35px;
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  background: url(Images/arrow-white-big.png) center no-repeat;
+}
+.student
+{
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-top: -174px;
+}
+.bluefuter
+{
+  width: 100%;
+  height: 190px;
+  background-color: #3498db;
+}
+.bluefuter-box
+{
+  width: 990px;
+  margin: 0 auto;
+  position: relative;
+}
+.biglogo
+{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 0;
+  height: 70px;
+  width: 70px;
+  border: solid 2px white;
+  border-radius: 80px;
+  display: inline-block;
+  background: url(Images/ABCbig.png) center no-repeat;
+}
+.biglogotext
+{
+  font: 19pt "Helvetica Light", Arial, sans-serif;
+  color: white;
+  letter-spacing: 1px;
+}
+.biglogo-box
+{
+  height: auto;
+  width: 170px;
+  display: inline-block;
+  border-right: solid 1px #2980b9;
+  position: absolute;
+  margin-top: 62px;
+  margin-left: 90px;
+}
+.connectbottom
+{
+  position: absolute;
+  height: 25px;
+  width: 145px;
+  left: 280px;
+  top: 60px;
+}
+.copyright
+{
+  position: absolute;
+  color: white;
+  font: 10pt "Helvetica Light", Arial, sans-serif;
+  top: 95px;
+  left: 280px;
+}
+a
+{
+    cursor: pointer;
+}

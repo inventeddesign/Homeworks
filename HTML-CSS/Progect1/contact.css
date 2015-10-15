@@ -1,0 +1,88 @@
+.contactmap
+{
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  height: 353px;
+}
+
+.contact
+{
+  /*position: relative;*/
+  float: left;
+  width: 50%;
+  height: 353px;
+  display: inline-block;
+  min-width: 300px;
+}
+.map
+{
+  /*position: relative;*/
+  width: 50%;
+  height: 353px;
+  display: inline-block;
+  border: none;
+}
+.contact-text
+{
+  font: 10pt "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 25pt;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 240px;
+  color: #666666;
+  display: inline-block;
+}
+.fb
+{
+  position: relative;
+  margin-top: 260px;
+  margin-left: 180px;
+  display: inline-block;
+  /*background-image: image(icon-fb.png);
+  height: 50px;
+  width: 50px;*/
+}
+.twit
+{
+  position: relative;
+  margin-left: 20px;
+  display: inline-block;
+}
+.in
+{
+  position: relative;
+  margin-left: 20px;
+  display: inline-block;
+}
+.iconik
+{
+  display: inline-block;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 190px;
+}
+.phone
+{
+  display: inline-block;
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 190px;
+}
+.envelope
+{
+  display: inline-block;
+  position: absolute;
+  margin-top: 215px;
+  margin-left: 185px;
+}
+
+.googlemap
+{
+  width:100%;
+  position:relative;
+  height:353px;
+  left:0px;
+  border: none;
+}
